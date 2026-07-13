@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T21:51:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/457470976",
+        "alt_name": "آبار علي;ابيار علي;أبيار علي",
+        "alt_name:ar": "آبار علي;ابيار علي;أبيار علي",
+        "alt_name:en": "Meeqat Dhul Hulaifa",
+        "historic": "monument",
+        "name": "ميقات ذي الحليفة",
+        "name:ar": "ميقات ذي الحليفة",
+        "name:en": "Miqat Dhul Hulaifah",
+        "wikidata": "Q6783320",
+        "wikipedia": "en:Miqat Dhu al-Hulayfah"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.5425032,
+              24.4149137
+            ],
+            [
+              39.5415238,
+              24.4135229
+            ],
+            [
+              39.5431095,
+              24.4125673
+            ],
+            [
+              39.5440539,
+              24.4140272
+            ],
+            [
+              39.5425032,
+              24.4149137
+            ]
+          ]
+        ]
+      },
+      "id": "way/457470976"
+    }
+  ]
+}

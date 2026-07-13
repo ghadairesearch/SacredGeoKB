@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T21:48:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/456361985",
+        "alt_name": "Meeqat Al-Juhfah",
+        "historic": "monument",
+        "name": "ميقات الجحفة",
+        "name:ar": "ميقات الجحفة",
+        "name:en": "Miqat Al-Juhfah",
+        "wikidata": "Q12185431"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.1471205,
+              22.7061579
+            ],
+            [
+              39.1461082,
+              22.7056178
+            ],
+            [
+              39.1467058,
+              22.704669
+            ],
+            [
+              39.1477018,
+              22.7052128
+            ],
+            [
+              39.1471205,
+              22.7061579
+            ]
+          ]
+        ]
+      },
+      "id": "way/456361985"
+    }
+  ]
+}

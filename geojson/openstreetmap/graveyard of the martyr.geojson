@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T20:50:52Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/444240032",
+        "amenity": "grave_yard",
+        "image": "File:Madina_trip_42.jpg",
+        "name": "مقبره شهداء أحد",
+        "name:de": "Friedhof der Märtyrer",
+        "name:en": "graveyard of the martyr",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6114894,
+              24.5041357
+            ],
+            [
+              39.6114845,
+              24.5033424
+            ],
+            [
+              39.6117795,
+              24.5033415
+            ],
+            [
+              39.6120109,
+              24.5033408
+            ],
+            [
+              39.6120204,
+              24.5042571
+            ],
+            [
+              39.6116288,
+              24.5042592
+            ],
+            [
+              39.6114894,
+              24.5041357
+            ]
+          ]
+        ]
+      },
+      "id": "way/444240032"
+    }
+  ]
+}

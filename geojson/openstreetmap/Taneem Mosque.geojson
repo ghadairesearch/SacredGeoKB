@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T20:56:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/431611519",
+        "addr:city": "Makkah",
+        "alt_name": "مسجد التنعيم",
+        "alt_name:ar": "مسجد التنعيم",
+        "alt_name:en": "Masjid Taneem",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "description": "It's an boundary of Haram therefore pilgrims can put on Ihram. It is to be noted that this is not the Miqat so it is not compulsory to wear Ihram here.",
+        "name": "مسجد أم المؤمنين السيدة عائشة",
+        "name:ar": "مسجد أم المؤمنين السيدة عائشة",
+        "name:en": "Om El-Moumneen El-Sayeda Aisha Mosque",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.8009183,
+              21.467932
+            ],
+            [
+              39.8012955,
+              21.467234
+            ],
+            [
+              39.8018178,
+              21.4674784
+            ],
+            [
+              39.8014407,
+              21.4681764
+            ],
+            [
+              39.8009183,
+              21.467932
+            ]
+          ]
+        ]
+      },
+      "id": "way/431611519"
+    }
+  ]
+}

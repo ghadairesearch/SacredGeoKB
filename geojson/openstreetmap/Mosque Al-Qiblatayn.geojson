@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T20:52:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66510098",
+        "amenity": "place_of_worship",
+        "architect": "Abdel-Wahed El-Wakil",
+        "building": "yes",
+        "denomination": "sunni",
+        "historic": "yes",
+        "image": "File:Masjid_al-Qiblatain.jpg",
+        "name": "مسجد القبلتين",
+        "name:ar": "مسجد القبلتين",
+        "name:de": "Moschee der zwei Gebetsrichtungen - Al Qiblatayn",
+        "name:en": "Mosque Al-Qiblatayn - Mosque of the Two Qiblas",
+        "name:fr": "Mosquée Al Qiblatain",
+        "religion": "muslim",
+        "tourism": "yes",
+        "wikidata": "Q2334553",
+        "wikipedia": "en:Masjid al-Qiblatain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.5792406,
+              24.4840382
+            ],
+            [
+              39.579242,
+              24.4842394
+            ],
+            [
+              39.5791511,
+              24.4842693
+            ],
+            [
+              39.5790962,
+              24.4842702
+            ],
+            [
+              39.5790966,
+              24.4843306
+            ],
+            [
+              39.5790011,
+              24.4843315
+            ],
+            [
+              39.5790006,
+              24.4843704
+            ],
+            [
+              39.5787436,
+              24.4843704
+            ],
+            [
+              39.5787436,
+              24.4843118
+            ],
+            [
+              39.5786703,
+              24.4843123
+            ],
+            [
+              39.5786353,
+              24.4842635
+            ],
+            [
+              39.5785096,
+              24.484263
+            ],
+            [
+              39.5784387,
+              24.4840741
+            ],
+            [
+              39.5783802,
+              24.4839433
+            ],
+            [
+              39.5786522,
+              24.4840126
+            ],
+            [
+              39.5792406,
+              24.4840382
+            ]
+          ]
+        ]
+      },
+      "id": "way/66510098"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T21:06:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4144223250",
+        "alt_name": "Al-Aqaba Jamarah",
+        "historic": "monument",
+        "name": "الجمرة الكبرى",
+        "name:ar": "الجمرة الكبرى",
+        "name:en": "Big Jamarah",
+        "name:ku": "Îblîse Mezin",
+        "name:tr": "Büyük Şeytan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8709424,
+          21.4216493
+        ]
+      },
+      "id": "node/4144223250"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-06T16:04:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315911894",
+        "alt_name": "الحجر;حِجْر إسماعيل;جَدْر;حَطِيْ",
+        "building": "yes",
+        "building:colour": "#fafafa",
+        "height": "1.23",
+        "material": "marble:plates",
+        "name": "الحجر",
+        "name:ar": "الحجر",
+        "name:en": "Al-Hijr (Hateem)",
+        "name:ml": "അൽ-ഹിജ്ർ",
+        "name:ru": "Хиджр Исмаил",
+        "name:tk": "Hijr-i Ysmaýyl",
+        "name:tr": "Hicr-i İsmail",
+        "note": "Please do not add arabic marks-harakat into the glyph, leave it as it is in normal written form, so that will be useful to easily avoid rendering issues on the map/apps.",
+        "wikidata": "Q2080761",
+        "wikipedia": "ar:حجر إسماعيل"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.8261737,
+              21.422607
+            ],
+            [
+              39.8261844,
+              21.4226121
+            ],
+            [
+              39.8261761,
+              21.4226273
+            ],
+            [
+              39.8261609,
+              21.4226401
+            ],
+            [
+              39.8261419,
+              21.4226471
+            ],
+            [
+              39.8261214,
+              21.4226474
+            ],
+            [
+              39.8261021,
+              21.4226409
+            ],
+            [
+              39.8260861,
+              21.4226279
+            ],
+            [
+              39.8260763,
+              21.4226104
+            ],
+            [
+              39.826074,
+              21.4225907
+            ],
+            [
+              39.8260797,
+              21.4225716
+            ],
+            [
+              39.8260911,
+              21.4225575
+            ],
+            [
+              39.8261007,
+              21.4225642
+            ],
+            [
+              39.8260907,
+              21.4225766
+            ],
+            [
+              39.8260862,
+              21.4225916
+            ],
+            [
+              39.826088,
+              21.4226071
+            ],
+            [
+              39.8260957,
+              21.4226209
+            ],
+            [
+              39.8261083,
+              21.4226311
+            ],
+            [
+              39.8261234,
+              21.4226362
+            ],
+            [
+              39.8261395,
+              21.422636
+            ],
+            [
+              39.8261545,
+              21.4226305
+            ],
+            [
+              39.8261664,
+              21.4226204
+            ],
+            [
+              39.8261737,
+              21.422607
+            ]
+          ]
+        ]
+      },
+      "id": "way/315911894"
+    }
+  ]
+}

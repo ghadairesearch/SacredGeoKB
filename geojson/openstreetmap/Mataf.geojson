@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-08T05:27:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12792656",
+        "colour": "white",
+        "highway": "pedestrian",
+        "name": "المطاف",
+        "name:ar": "المطاف",
+        "name:el": "Ματάφ",
+        "name:en": "Mataf",
+        "name:ru": "Аль-Матаф",
+        "name:tk": "El-Metaf",
+        "name:tr": "el-Metâf",
+        "name:ur": "مطاف",
+        "place": "square",
+        "surface": "marble:plates",
+        "type": "multipolygon",
+        "@geometry": "bounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.8254219,
+              21.4218176
+            ],
+            [
+              39.8268401,
+              21.4218176
+            ],
+            [
+              39.8268401,
+              21.4233306
+            ],
+            [
+              39.8254219,
+              21.4233306
+            ],
+            [
+              39.8254219,
+              21.4218176
+            ]
+          ]
+        ]
+      },
+      "id": "relation/12792656"
+    }
+  ]
+}

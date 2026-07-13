@@ -1,0 +1,2363 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T20:42:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/461699097",
+        "addr:city": "المدينة المنورة",
+        "addr:country": "SA",
+        "addr:street": "قبرالجسد الطاهر محمدبن عبدالله المصطفى ص اله",
+        "alt_name:fa": "مسجد نبوی;مسجد پیغمبر",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "13",
+        "image": "File:Masjid-nabawi.jpg",
+        "int_name": "Al-Masjid an-Nabawī",
+        "name": "المسجد النبوي",
+        "name:ar": "المسجد النبوي",
+        "name:ckb": "مزگەوتی پێغەمبەر",
+        "name:cs": "Prorokova mešita",
+        "name:de": "Prophetenmoschee",
+        "name:en": "Prophet's Mosque",
+        "name:es": "Mezquita del Profeta",
+        "name:fa": "مسجد النبی",
+        "name:fr": "Mosquée du Prophète",
+        "name:hi": "मस्जिद ए नबवी",
+        "name:it": "Moschea del Profeta",
+        "name:ml": "മസ്ജിദുന്നബവി",
+        "name:pt": "Mesquita do Profeta",
+        "name:ro": "Moscheea Profetului",
+        "name:ru": "Мечеть Пророка",
+        "name:sr": "Пророкова џамија",
+        "name:tk": "Mesjid-ün Nebi",
+        "name:tr": "Mescid-i Nebi",
+        "name:tt": "Мәсҗиден-Нәбәви",
+        "name:ug": "مەسجىدى نەبەۋىي",
+        "name:ur": "مسجد نبوی",
+        "religion": "muslim",
+        "start_date": "622",
+        "wikidata": "Q486080",
+        "wikipedia": "ar:المسجد النبوي"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.612724,
+              24.4699608
+            ],
+            [
+              39.6125824,
+              24.4699602
+            ],
+            [
+              39.6125825,
+              24.4699408
+            ],
+            [
+              39.6123761,
+              24.46994
+            ],
+            [
+              39.6121526,
+              24.4699391
+            ],
+            [
+              39.6121525,
+              24.4699588
+            ],
+            [
+              39.612055,
+              24.4699584
+            ],
+            [
+              39.6120554,
+              24.4698664
+            ],
+            [
+              39.6117534,
+              24.4698652
+            ],
+            [
+              39.6114183,
+              24.469864
+            ],
+            [
+              39.6114178,
+              24.469963
+            ],
+            [
+              39.6113419,
+              24.4699627
+            ],
+            [
+              39.611342,
+              24.4699254
+            ],
+            [
+              39.6111565,
+              24.4699247
+            ],
+            [
+              39.6109522,
+              24.4699238
+            ],
+            [
+              39.610952,
+              24.4699531
+            ],
+            [
+              39.6108525,
+              24.4699526
+            ],
+            [
+              39.610853,
+              24.4698689
+            ],
+            [
+              39.6108084,
+              24.4698687
+            ],
+            [
+              39.6108086,
+              24.469839
+            ],
+            [
+              39.6105382,
+              24.4698374
+            ],
+            [
+              39.6102546,
+              24.4698358
+            ],
+            [
+              39.610254,
+              24.4699178
+            ],
+            [
+              39.6103018,
+              24.4699181
+            ],
+            [
+              39.6103015,
+              24.4699565
+            ],
+            [
+              39.6101377,
+              24.4699555
+            ],
+            [
+              39.6101379,
+              24.4699267
+            ],
+            [
+              39.610081,
+              24.4699263
+            ],
+            [
+              39.6099172,
+              24.4699252
+            ],
+            [
+              39.609733,
+              24.4699239
+            ],
+            [
+              39.6097328,
+              24.4699497
+            ],
+            [
+              39.6095706,
+              24.4699486
+            ],
+            [
+              39.609571,
+              24.4698972
+            ],
+            [
+              39.6096114,
+              24.4698975
+            ],
+            [
+              39.6096118,
+              24.4698562
+            ],
+            [
+              39.6092603,
+              24.4698538
+            ],
+            [
+              39.6092609,
+              24.4697873
+            ],
+            [
+              39.6091329,
+              24.4697864
+            ],
+            [
+              39.6091341,
+              24.4696363
+            ],
+            [
+              39.6091611,
+              24.4696365
+            ],
+            [
+              39.6091622,
+              24.4694812
+            ],
+            [
+              39.6091631,
+              24.4693545
+            ],
+            [
+              39.6091633,
+              24.4693261
+            ],
+            [
+              39.6091238,
+              24.4693259
+            ],
+            [
+              39.609125,
+              24.4691374
+            ],
+            [
+              39.6092201,
+              24.4691379
+            ],
+            [
+              39.6092207,
+              24.4690278
+            ],
+            [
+              39.6091139,
+              24.4690273
+            ],
+            [
+              39.6091143,
+              24.4689544
+            ],
+            [
+              39.6091146,
+              24.4688963
+            ],
+            [
+              39.6091154,
+              24.4687551
+            ],
+            [
+              39.6092313,
+              24.4687556
+            ],
+            [
+              39.6092321,
+              24.4686077
+            ],
+            [
+              39.6091114,
+              24.4686072
+            ],
+            [
+              39.6091123,
+              24.4684289
+            ],
+            [
+              39.6091511,
+              24.468429
+            ],
+            [
+              39.6091518,
+              24.468265
+            ],
+            [
+              39.6091526,
+              24.4680701
+            ],
+            [
+              39.6091156,
+              24.46807
+            ],
+            [
+              39.6091162,
+              24.4678974
+            ],
+            [
+              39.6092304,
+              24.4678977
+            ],
+            [
+              39.6092305,
+              24.4678461
+            ],
+            [
+              39.6097237,
+              24.4678472
+            ],
+            [
+              39.6097239,
+              24.4677547
+            ],
+            [
+              39.6099202,
+              24.4677551
+            ],
+            [
+              39.6101036,
+              24.4677555
+            ],
+            [
+              39.6101033,
+              24.4678589
+            ],
+            [
+              39.6105603,
+              24.4678598
+            ],
+            [
+              39.6106619,
+              24.46786
+            ],
+            [
+              39.6106622,
+              24.4677486
+            ],
+            [
+              39.6106626,
+              24.4675676
+            ],
+            [
+              39.6106629,
+              24.4674402
+            ],
+            [
+              39.6106632,
+              24.4673319
+            ],
+            [
+              39.6111487,
+              24.4673329
+            ],
+            [
+              39.6115993,
+              24.4673338
+            ],
+            [
+              39.611599,
+              24.4674505
+            ],
+            [
+              39.6115983,
+              24.4677396
+            ],
+            [
+              39.6115982,
+              24.467798
+            ],
+            [
+              39.6115451,
+              24.4677979
+            ],
+            [
+              39.6115451,
+              24.4678205
+            ],
+            [
+              39.611545,
+              24.4678434
+            ],
+            [
+              39.6117889,
+              24.4678439
+            ],
+            [
+              39.6123063,
+              24.467845
+            ],
+            [
+              39.6123065,
+              24.4677684
+            ],
+            [
+              39.6124748,
+              24.4677688
+            ],
+            [
+              39.6126507,
+              24.4677692
+            ],
+            [
+              39.6126506,
+              24.4678358
+            ],
+            [
+              39.613024,
+              24.4678367
+            ],
+            [
+              39.6130241,
+              24.4678117
+            ],
+            [
+              39.6131134,
+              24.4678119
+            ],
+            [
+              39.6131126,
+              24.4680299
+            ],
+            [
+              39.6132254,
+              24.4680303
+            ],
+            [
+              39.6132251,
+              24.4680976
+            ],
+            [
+              39.6131988,
+              24.4680975
+            ],
+            [
+              39.613198,
+              24.4682758
+            ],
+            [
+              39.6131972,
+              24.46846
+            ],
+            [
+              39.6132323,
+              24.4684601
+            ],
+            [
+              39.6132318,
+              24.4685726
+            ],
+            [
+              39.6130929,
+              24.468572
+            ],
+            [
+              39.613092,
+              24.468753
+            ],
+            [
+              39.613206,
+              24.4687535
+            ],
+            [
+              39.6132054,
+              24.4688724
+            ],
+            [
+              39.6132048,
+              24.4689897
+            ],
+            [
+              39.6130898,
+              24.4689892
+            ],
+            [
+              39.6130889,
+              24.469147
+            ],
+            [
+              39.6131941,
+              24.4691475
+            ],
+            [
+              39.6131937,
+              24.4692234
+            ],
+            [
+              39.6131633,
+              24.4692232
+            ],
+            [
+              39.613162,
+              24.4694554
+            ],
+            [
+              39.6131609,
+              24.4696472
+            ],
+            [
+              39.6131852,
+              24.4696473
+            ],
+            [
+              39.6131847,
+              24.4697479
+            ],
+            [
+              39.6131209,
+              24.4697476
+            ],
+            [
+              39.6131207,
+              24.4697909
+            ],
+            [
+              39.6130524,
+              24.4697906
+            ],
+            [
+              39.6130519,
+              24.4698704
+            ],
+            [
+              39.6127244,
+              24.4698689
+            ],
+            [
+              39.612724,
+              24.4699608
+            ]
+          ]
+        ]
+      },
+      "id": "way/461699097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361906",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6096118,
+          24.4698562
+        ]
+      },
+      "id": "node/3059361906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361907",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092603,
+          24.4698538
+        ]
+      },
+      "id": "node/3059361907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361908",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091329,
+          24.4697864
+        ]
+      },
+      "id": "node/3059361908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361909",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.609125,
+          24.4691374
+        ]
+      },
+      "id": "node/3059361909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361910",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091341,
+          24.4696363
+        ]
+      },
+      "id": "node/3059361910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361911",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091238,
+          24.4693259
+        ]
+      },
+      "id": "node/3059361911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361912",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091611,
+          24.4696365
+        ]
+      },
+      "id": "node/3059361912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361913",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091633,
+          24.4693261
+        ]
+      },
+      "id": "node/3059361913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361914",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092201,
+          24.4691379
+        ]
+      },
+      "id": "node/3059361914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361915",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092207,
+          24.4690278
+        ]
+      },
+      "id": "node/3059361915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361916",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091139,
+          24.4690273
+        ]
+      },
+      "id": "node/3059361916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361917",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091154,
+          24.4687551
+        ]
+      },
+      "id": "node/3059361917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361918",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092313,
+          24.4687556
+        ]
+      },
+      "id": "node/3059361918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361919",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092321,
+          24.4686077
+        ]
+      },
+      "id": "node/3059361919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361920",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091114,
+          24.4686072
+        ]
+      },
+      "id": "node/3059361920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361921",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091162,
+          24.4678974
+        ]
+      },
+      "id": "node/3059361921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361923",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6102546,
+          24.4698358
+        ]
+      },
+      "id": "node/3059361923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361924",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092609,
+          24.4697873
+        ]
+      },
+      "id": "node/3059361924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361925",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6096114,
+          24.4698975
+        ]
+      },
+      "id": "node/3059361925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361926",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.609571,
+          24.4698972
+        ]
+      },
+      "id": "node/3059361926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361927",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6095706,
+          24.4699486
+        ]
+      },
+      "id": "node/3059361927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361928",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6097328,
+          24.4699497
+        ]
+      },
+      "id": "node/3059361928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361929",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.609733,
+          24.4699239
+        ]
+      },
+      "id": "node/3059361929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361930",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6101379,
+          24.4699267
+        ]
+      },
+      "id": "node/3059361930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361931",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6101377,
+          24.4699555
+        ]
+      },
+      "id": "node/3059361931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361932",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6103015,
+          24.4699565
+        ]
+      },
+      "id": "node/3059361932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361933",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6103018,
+          24.4699181
+        ]
+      },
+      "id": "node/3059361933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361934",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.610254,
+          24.4699178
+        ]
+      },
+      "id": "node/3059361934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361935",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6108086,
+          24.469839
+        ]
+      },
+      "id": "node/3059361935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361936",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6108084,
+          24.4698687
+        ]
+      },
+      "id": "node/3059361936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361937",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.610853,
+          24.4698689
+        ]
+      },
+      "id": "node/3059361937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361938",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6108525,
+          24.4699526
+        ]
+      },
+      "id": "node/3059361938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361939",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.610952,
+          24.4699531
+        ]
+      },
+      "id": "node/3059361939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361940",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6109522,
+          24.4699238
+        ]
+      },
+      "id": "node/3059361940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361977",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092304,
+          24.4678977
+        ]
+      },
+      "id": "node/3059361977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361978",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6092305,
+          24.4678461
+        ]
+      },
+      "id": "node/3059361978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361979",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6101033,
+          24.4678589
+        ]
+      },
+      "id": "node/3059361979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361981",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6097237,
+          24.4678472
+        ]
+      },
+      "id": "node/3059361981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361982",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6097239,
+          24.4677547
+        ]
+      },
+      "id": "node/3059361982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059361983",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6101036,
+          24.4677555
+        ]
+      },
+      "id": "node/3059361983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059453702",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.611342,
+          24.4699254
+        ]
+      },
+      "id": "node/3059453702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059453703",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6113419,
+          24.4699627
+        ]
+      },
+      "id": "node/3059453703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059453704",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6114178,
+          24.469963
+        ]
+      },
+      "id": "node/3059453704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3059531452",
+        "historic": "city_gate",
+        "name": "باب الملك فهد - 20, 21, 22",
+        "name:ar": "باب الملك فهد - 20, 21, 22",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6111565,
+          24.4699247
+        ]
+      },
+      "id": "node/3059531452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562352452",
+        "historic": "city_gate",
+        "name": "باب قباء - 5",
+        "name:ar": "باب قباء - 5",
+        "name:en": "Bab Qaba - 5",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6099202,
+          24.4677551
+        ]
+      },
+      "id": "node/4562352452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562352453",
+        "historic": "city_gate",
+        "name": "باب مكة - 37",
+        "name:ar": "باب مكة - 37",
+        "name:en": "Bab Makkah - 37",
+        "name:ku": "Deriye Meke",
+        "name:tr": "Mekke Kapısı",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6124748,
+          24.4677688
+        ]
+      },
+      "id": "node/4562352453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562354617",
+        "historic": "city_gate",
+        "name": "باب عمر بن الخطاب 16, 17 - مدخل النساء",
+        "name:ar": "باب عمر بن الخطاب 16, 17 - مدخل النساء",
+        "name:en": "Omar Bin Al Khattab Gates 16, 17 - Women Entrance",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6099172,
+          24.4699252
+        ]
+      },
+      "id": "node/4562354617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562358315",
+        "historic": "city_gate",
+        "name": "باب عثمان بن عفان - 24, 25, 26 - مدخل النساء",
+        "name:ar": "باب عثمان بن عفان - 24, 25, 26 - مدخل النساء",
+        "name:en": "Othman Bin Affan Gates - 24, 25, 26 - Women Entrance",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6123761,
+          24.46994
+        ]
+      },
+      "id": "node/4562358315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562359893",
+        "historic": "city_gate",
+        "name": "باب أحد - 23 - مدخل النساء",
+        "name:ar": "باب أحد - 23 - مدخل النساء",
+        "name:en": "Ohud Gate - 23 - Women Entrance",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6117534,
+          24.4698652
+        ]
+      },
+      "id": "node/4562359893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562359894",
+        "historic": "city_gate",
+        "name": "باب بدر -19",
+        "name:ar": "باب بدر -19",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6105382,
+          24.4698374
+        ]
+      },
+      "id": "node/4562359894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562361493",
+        "historic": "city_gate",
+        "name": "باب العقّيق - 10, 11",
+        "name:ar": "باب العقّيق - 10, 11",
+        "name:en": "Al Aqiq Gates - 10, 11",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091146,
+          24.4688963
+        ]
+      },
+      "id": "node/4562361493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562362787",
+        "historic": "city_gate",
+        "name": "باب الملك سعود - 7, 8, 9",
+        "name:ar": "باب الملك سعود - 7, 8, 9",
+        "name:en": "King Saud Gates - 7, 8, 9",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091518,
+          24.468265
+        ]
+      },
+      "id": "node/4562362787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562362788",
+        "historic": "city_gate",
+        "name": "باب الملك عبدالعزيز - 33, 34, 35",
+        "name:ar": "باب الملك عبدالعزيز - 33, 34, 35",
+        "name:en": "King Abdul Aziz Gates - 33, 34, 35",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.613198,
+          24.4682758
+        ]
+      },
+      "id": "node/4562362788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562374597",
+        "historic": "city_gate",
+        "image": "File:Madina_trip_14.jpg",
+        "name": "مدخل – باب السلام - 1",
+        "name:ar": "مدخل – باب السلام - 1",
+        "name:en": "Entrance - As-Salam Gate - 1",
+        "portal": "yes",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6106629,
+          24.4674402
+        ]
+      },
+      "id": "node/4562374597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562374598",
+        "historic": "city_gate",
+        "name": "باب البقيع - 41",
+        "name:ar": "باب البقيع - 41",
+        "name:en": "Exit - Al-Baqi Gate - 41",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.611599,
+          24.4674505
+        ]
+      },
+      "id": "node/4562374598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562377035",
+        "historic": "city_gate",
+        "name": "Abu Dhar Al-Ghafari Gates - 31, 32",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132054,
+          24.4688724
+        ]
+      },
+      "id": "node/4562377035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124306217",
+        "historic": "city_gate",
+        "name": "باب النساء - 39",
+        "name:ar": "باب النساء - 39",
+        "name:en": "An-Nisa Gate - 39",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6115451,
+          24.4678205
+        ]
+      },
+      "id": "node/5124306217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124318602",
+        "historic": "city_gate",
+        "name": "باب جبريل - 40",
+        "name:ar": "باب جبريل - 40",
+        "name:en": "Al-Jebreel Gate - 40",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6115983,
+          24.4677396
+        ]
+      },
+      "id": "node/5124318602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124338122",
+        "historic": "city_gate",
+        "name": "باب الرحمة - 3",
+        "name:ar": "باب الرحمة - 3",
+        "name:en": "Ar-Rahma Gate - 3",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6106622,
+          24.4677486
+        ]
+      },
+      "id": "node/5124338122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124366467",
+        "historic": "city_gate",
+        "name": "بوابة أبو بكر الصديق - 2",
+        "name:ar": "بوابة أبو بكر الصديق - 2",
+        "name:en": "Abu Bakr as-Siddiq Gate - 2",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6106626,
+          24.4675676
+        ]
+      },
+      "id": "node/5124366467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5859110900",
+        "historic": "city_gate",
+        "name": "باب علي بن أبو طالب - 28 , 29, 30 - مدخل النساء",
+        "name:ar": "باب علي بن أبو طالب - 28 , 29, 30 - مدخل النساء",
+        "name:en": "Bab Ali Bin Abu Talib - 28 , 29, 30 - Women Entrance",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.613162,
+          24.4694554
+        ]
+      },
+      "id": "node/5859110900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5859174894",
+        "historic": "city_gate",
+        "image": "File:Madina_trip_17.jpg",
+        "name": "باب بلال - 38",
+        "name:ar": "باب بلال - 38",
+        "name:en": "Bab Bilal - 38",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6117889,
+          24.4678439
+        ]
+      },
+      "id": "node/5859174894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5859327471",
+        "historic": "city_gate",
+        "name": "باب المجيدي - 12, 13, 14 - مدخل النساء",
+        "name:ar": "باب المجيدي - 12, 13, 14 - مدخل النساء",
+        "name:en": "Bab Sultan Abdul Majid - 12, 13, 14 - Women Entrance",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091622,
+          24.4694812
+        ]
+      },
+      "id": "node/5859327471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879932847",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6114183,
+          24.469864
+        ]
+      },
+      "id": "node/5879932847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879932848",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131134,
+          24.4678119
+        ]
+      },
+      "id": "node/5879932848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879932849",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.611545,
+          24.4678434
+        ]
+      },
+      "id": "node/5879932849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879932850",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6115993,
+          24.4673338
+        ]
+      },
+      "id": "node/5879932850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879932851",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6106632,
+          24.4673319
+        ]
+      },
+      "id": "node/5879932851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943672",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6120554,
+          24.4698664
+        ]
+      },
+      "id": "node/5879943672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943673",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.612055,
+          24.4699584
+        ]
+      },
+      "id": "node/5879943673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943674",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6127244,
+          24.4698689
+        ]
+      },
+      "id": "node/5879943674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943675",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131847,
+          24.4697479
+        ]
+      },
+      "id": "node/5879943675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943676",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131941,
+          24.4691475
+        ]
+      },
+      "id": "node/5879943676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943677",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130889,
+          24.469147
+        ]
+      },
+      "id": "node/5879943677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943678",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132048,
+          24.4689897
+        ]
+      },
+      "id": "node/5879943678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943679",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130898,
+          24.4689892
+        ]
+      },
+      "id": "node/5879943679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943680",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.613206,
+          24.4687535
+        ]
+      },
+      "id": "node/5879943680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943681",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.613092,
+          24.468753
+        ]
+      },
+      "id": "node/5879943681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943682",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130929,
+          24.468572
+        ]
+      },
+      "id": "node/5879943682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943683",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131972,
+          24.46846
+        ]
+      },
+      "id": "node/5879943683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943985",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131126,
+          24.4680299
+        ]
+      },
+      "id": "node/5879943985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943986",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6126506,
+          24.4678358
+        ]
+      },
+      "id": "node/5879943986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943987",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6126507,
+          24.4677692
+        ]
+      },
+      "id": "node/5879943987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943988",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6123065,
+          24.4677684
+        ]
+      },
+      "id": "node/5879943988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879943989",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6123063,
+          24.467845
+        ]
+      },
+      "id": "node/5879943989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879947509",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131209,
+          24.4697476
+        ]
+      },
+      "id": "node/5879947509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879947510",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131207,
+          24.4697909
+        ]
+      },
+      "id": "node/5879947510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879947511",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130524,
+          24.4697906
+        ]
+      },
+      "id": "node/5879947511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879947512",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130519,
+          24.4698704
+        ]
+      },
+      "id": "node/5879947512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956972",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131937,
+          24.4692234
+        ]
+      },
+      "id": "node/5879956972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956973",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131633,
+          24.4692232
+        ]
+      },
+      "id": "node/5879956973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956974",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131852,
+          24.4696473
+        ]
+      },
+      "id": "node/5879956974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956975",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131609,
+          24.4696472
+        ]
+      },
+      "id": "node/5879956975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956980",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6130241,
+          24.4678117
+        ]
+      },
+      "id": "node/5879956980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879956981",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.613024,
+          24.4678367
+        ]
+      },
+      "id": "node/5879956981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970801",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6121525,
+          24.4699588
+        ]
+      },
+      "id": "node/5879970801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970802",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6121526,
+          24.4699391
+        ]
+      },
+      "id": "node/5879970802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970803",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6125825,
+          24.4699408
+        ]
+      },
+      "id": "node/5879970803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970804",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6125824,
+          24.4699602
+        ]
+      },
+      "id": "node/5879970804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970805",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091123,
+          24.4684289
+        ]
+      },
+      "id": "node/5879970805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970806",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091511,
+          24.468429
+        ]
+      },
+      "id": "node/5879970806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970807",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091156,
+          24.46807
+        ]
+      },
+      "id": "node/5879970807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879970808",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091526,
+          24.4680701
+        ]
+      },
+      "id": "node/5879970808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5883015769",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6115451,
+          24.4677979
+        ]
+      },
+      "id": "node/5883015769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5883015770",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6115982,
+          24.467798
+        ]
+      },
+      "id": "node/5883015770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895105155",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091143,
+          24.4689544
+        ]
+      },
+      "id": "node/5895105155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895105156",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6091631,
+          24.4693545
+        ]
+      },
+      "id": "node/5895105156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895136188",
+        "historic": "city_gate",
+        "name": "باب الهجرة - 4",
+        "name:ar": "باب الهجرة - 4",
+        "name:en": "Bab al-Hijra - 4",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6105603,
+          24.4678598
+        ]
+      },
+      "id": "node/5895136188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895143050",
+        "historic": "city_gate",
+        "name": "باب عمر بن الخطاب 18",
+        "name:ar": "باب عمر بن الخطاب 18",
+        "name:en": "Omar Bin Al Khattab Gate 18",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.610081,
+          24.4699263
+        ]
+      },
+      "id": "node/5895143050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5897451971",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6106619,
+          24.46786
+        ]
+      },
+      "id": "node/5897451971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905855816",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132254,
+          24.4680303
+        ]
+      },
+      "id": "node/5905855816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905855817",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132251,
+          24.4680976
+        ]
+      },
+      "id": "node/5905855817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905855818",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6131988,
+          24.4680975
+        ]
+      },
+      "id": "node/5905855818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905855820",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132323,
+          24.4684601
+        ]
+      },
+      "id": "node/5905855820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905855821",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6132318,
+          24.4685726
+        ]
+      },
+      "id": "node/5905855821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6446716108",
+        "access": "no",
+        "entrance": "yes",
+        "name": "Door 42",
+        "name:es": "Puerta 42",
+        "name:fr": "Porte 42",
+        "name:ur": "دروازہ 42",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6111487,
+          24.4673329
+        ]
+      },
+      "id": "node/6446716108"
+    }
+  ]
+}

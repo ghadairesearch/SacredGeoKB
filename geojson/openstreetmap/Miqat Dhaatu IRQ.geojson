@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-08T05:22:31Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/457487766",
+        "alt_name": "Meeqat Dhaatu IRQ",
+        "description": "ذات عرق ميقات أهل العراق ومن جاء عن طريقهم، ويبعد عن مكة مسافة 110 كم شمالاً.وهو من مواقيت الحج",
+        "historic": "monument",
+        "name": "ميقات ذات عرق",
+        "name:ar": "ميقات ذات عرق",
+        "name:en": "Miqat Dhaatu IRQ",
+        "wikidata": "Q12212593"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.4256779,
+              21.9308754
+            ],
+            [
+              40.4247798,
+              21.9301658
+            ],
+            [
+              40.4254845,
+              21.9293885
+            ],
+            [
+              40.4262838,
+              21.9299267
+            ],
+            [
+              40.4265202,
+              21.9302496
+            ],
+            [
+              40.4263698,
+              21.9306522
+            ],
+            [
+              40.4261334,
+              21.9308634
+            ],
+            [
+              40.4256779,
+              21.9308754
+            ]
+          ]
+        ]
+      },
+      "id": "way/457487766"
+    }
+  ]
+}

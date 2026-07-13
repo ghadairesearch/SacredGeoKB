@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-06T16:08:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103914569",
+        "addr:city": "Mecca",
+        "addr:postcode": "24231",
+        "addr:street": "Al Haram",
+        "alt_name": "Kaaba;الكعبة المشرفة;بكة;البنية;بنية إبراهيم;قادس;نادر;القرية القديمة;الدُّوَّار",
+        "alt_name:ar": "القبلة",
+        "amenity": "place_of_worship",
+        "building": "religious",
+        "building:colour": "black",
+        "building:material": "limestone",
+        "height": "15",
+        "image": "https://commons.wikimedia.org/wiki/File:Kaaba_Al-Musharrafah.jpg",
+        "int_name": "Kaaba Al-Musharrafah,Al Ka bah,Kaaba,Kaba,Kabah,Kaaba,Kaaba - الكعبة,Kaabah,Kaampa,Kaba,Kaba szentely,Kabe,Ka´ba,Kába,Kába szentély,Kâbe,La Kaaba,Qabeja,kaaba,Κάαμπα,Кааба,Каба,כעבה,الكعبة المشرفة,خانہ کعبہ,کعبه,กะอ, Al Kabah",
+        "landmark": "1",
+        "name": "الكعبة",
+        "name:ar": "الكعبة",
+        "name:bs": "Kjaba",
+        "name:cy": "Caaba",
+        "name:de": "Kaaba",
+        "name:el": "Καάμπα",
+        "name:en": "Kaaba",
+        "name:es": "Kaaba",
+        "name:fa": "کعبه",
+        "name:fr": "Kaaba",
+        "name:hi": "काबा",
+        "name:hr": "Kaba",
+        "name:id": "Ka'bah",
+        "name:kn": "ಕಾಬ",
+        "name:ml": "കഅ്ബ",
+        "name:ru": "Кааба",
+        "name:th": "กะอ์บะฮ์",
+        "name:tk": "Käbe Mugazzama",
+        "name:tr": "Kabe-i Muzzama",
+        "name:uk": "Кааба",
+        "religion": "muslim",
+        "short_name:ar": "الكعبة",
+        "wikidata": "Q29466",
+        "wikipedia": "ar:الكعبة",
+        "wikipedia:en": "en:Kaaba",
+        "wikipedia:es": "es:Kaaba"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.8261095,
+              21.4225371
+            ],
+            [
+              39.8261735,
+              21.4224468
+            ],
+            [
+              39.8262546,
+              21.4224985
+            ],
+            [
+              39.8262411,
+              21.4225173
+            ],
+            [
+              39.8261922,
+              21.4225861
+            ],
+            [
+              39.8261095,
+              21.4225371
+            ]
+          ]
+        ]
+      },
+      "id": "way/103914569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1199442699",
+        "historic": "yes",
+        "name": "Shami Corner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8261095,
+          21.4225371
+        ]
+      },
+      "id": "node/1199442699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1199442700",
+        "alt_name:en": "ar-rukn al-yamani",
+        "historic": "yes",
+        "name": "الركن اليماني",
+        "name:ar": "الركن اليماني",
+        "name:de": "Jemenitische Ecke",
+        "name:en": "Corner of Yemen",
+        "name:fa": "رکن یمانی",
+        "name:fr": "Angle du Yémen",
+        "name:ru": "угол Йемена",
+        "name:tk": "Ýemani Burçy",
+        "name:tr": "Yemani Köşesi",
+        "religion": "muslim",
+        "wikidata": "Q4115878",
+        "wikipedia": "ar:أركان الكعبة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8261735,
+          21.4224468
+        ]
+      },
+      "id": "node/1199442700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1199442721",
+        "historic": "stone",
+        "name": "الحجر الأسود",
+        "name:ar": "الحجر الأسود",
+        "name:de": "Schwarzer Stein",
+        "name:el": "Μαύρος Λίθος",
+        "name:en": "Black Stone",
+        "name:fa": "حجرالاسود",
+        "name:fr": "Pierre noire",
+        "name:it": "Pietra Nera",
+        "name:ml": "ഹജറുൽ അസ്‌വദ്",
+        "name:ru": "Чёрный камень",
+        "name:tk": "Gara Daş",
+        "name:tr": "Karataş",
+        "name:ur": "حجر اسود",
+        "religion": "muslim",
+        "wikidata": "Q715286",
+        "wikipedia": "ar:الحجر الأسود"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262546,
+          21.4224985
+        ]
+      },
+      "id": "node/1199442721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4900636561",
+        "access": "no",
+        "automatic_door": "no",
+        "door": "hinged",
+        "entrance": "yes",
+        "height": "5.4",
+        "min_height": "2.22",
+        "name": "باب الكعبة",
+        "name:en": "Bab al Kaaba",
+        "name:ml": "ബാബ് അൽ കഅബ",
+        "width": "1.9",
+        "wikidata": "Q16122214",
+        "wikipedia": "ar:باب الكعبة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262411,
+          21.4225173
+        ]
+      },
+      "id": "node/4900636561"
+    }
+  ]
+}

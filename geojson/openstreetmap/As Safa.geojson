@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T22:42:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4589923995",
+        "name": "الصفا",
+        "name:ar": "الصفا",
+        "name:de": "As-Safa",
+        "name:en": "As Safa",
+        "name:es": "Asafa",
+        "name:fr": "Safâ",
+        "name:ml": "അൽ-സഫ",
+        "name:tk": "Sapa",
+        "name:tr": "Safa",
+        "name:ur": "الصفا",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8274307,
+          21.4217996
+        ]
+      },
+      "id": "node/4589923995"
+    }
+  ]
+}

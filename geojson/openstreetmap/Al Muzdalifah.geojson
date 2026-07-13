@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-08T05:29:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4543956102",
+        "GNS:dsg_code": "AREA",
+        "GNS:dsg_name": "area",
+        "GNS:id": "-3092419",
+        "int_name": "Al Muzdalifah",
+        "name": "مزدلفة",
+        "name:ar": "مزدلفة",
+        "name:en": "Al Muzdalifah",
+        "name:fr": "Al Muzdalifah",
+        "name:tr": "Müzdelife",
+        "place": "suburb",
+        "wikidata": "Q1788735",
+        "wikipedia": "en:Muzdalifah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9151466,
+          21.3863464
+        ]
+      },
+      "id": "node/4543956102"
+    }
+  ]
+}

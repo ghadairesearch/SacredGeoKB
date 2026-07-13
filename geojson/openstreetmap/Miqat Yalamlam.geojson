@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T21:47:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/456362592",
+        "alt_name": "Meeqat Yalamlam",
+        "denomination": "sunni",
+        "historic": "monument",
+        "landuse": "religious",
+        "name": "ميقات يلملم",
+        "name:ar": "ميقات يلملم",
+        "name:en": "Miqat Yalamlam",
+        "religion": "muslim",
+        "wikidata": "Q3595659"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.8705733,
+              20.5175705
+            ],
+            [
+              39.8706382,
+              20.5166624
+            ],
+            [
+              39.8716322,
+              20.516726
+            ],
+            [
+              39.8715499,
+              20.5176377
+            ],
+            [
+              39.8705733,
+              20.5175705
+            ]
+          ]
+        ]
+      },
+      "id": "way/456362592"
+    }
+  ]
+}

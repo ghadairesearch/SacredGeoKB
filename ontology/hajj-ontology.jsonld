@@ -1,0 +1,3960 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "label_ar": "label_ar",
+    "label_en": "label_en",
+    "alternative_labels": "alternative_labels",
+    "definition": "definition",
+    "definition_ar": "definition_ar",
+    "journey_type": "journey_type",
+    "part_of": {
+      "@id": "part_of",
+      "@type": "@id"
+    },
+    "ritual_of": {
+      "@id": "ritual_of",
+      "@type": "@id"
+    },
+    "has_ritual": {
+      "@id": "has_ritual",
+      "@type": "@id"
+    },
+    "has_sub_ritual": {
+      "@id": "has_sub_ritual",
+      "@type": "@id"
+    },
+    "sub_ritual_of": {
+      "@id": "sub_ritual_of",
+      "@type": "@id"
+    },
+    "has_occasion": {
+      "@id": "has_occasion",
+      "@type": "@id"
+    },
+    "precedes": {
+      "@id": "precedes",
+      "@type": "@id"
+    },
+    "follows": {
+      "@id": "follows",
+      "@type": "@id"
+    },
+    "associated_place": {
+      "@id": "associated_place",
+      "@type": "@id"
+    },
+    "associated_occasion": {
+      "@id": "associated_occasion",
+      "@type": "@id"
+    },
+    "associated_zone_ids": "associated_zone_ids",
+    "outside_zone_ids": "outside_zone_ids",
+    "spatial_zone_type": "spatial_zone_type",
+    "temporal_rule": "temporal_rule",
+    "spatial_rule": "spatial_rule",
+    "movement_rule": "movement_rule",
+    "required_rounds": "required_rounds",
+    "start_zone_id": "start_zone_id",
+    "end_zone_id": "end_zone_id",
+    "round_count_rule": "round_count_rule",
+    "sequence_rule": "sequence_rule",
+    "context_state": "context_state",
+    "inferred_need": "inferred_need",
+    "recommended_message_type": "recommended_message_type",
+    "priority": "priority",
+    "evidence_required": "evidence_required",
+    "knowledge_intent": "knowledge_intent",
+    "comment": "comment",
+    "domain": "domain",
+    "range": "range",
+    "example": "example",
+    "notes": "notes",
+    "special_rules": "special_rules",
+    "spatial_stage": "spatial_stage",
+    "source_zone_id": "source_zone_id",
+    "located_in_city": {
+      "@id": "located_in_city",
+      "@type": "@id"
+    },
+    "contains_place": {
+      "@id": "contains_place",
+      "@type": "@id"
+    },
+    "gate_of": {
+      "@id": "gate_of",
+      "@type": "@id"
+    },
+    "has_gate": {
+      "@id": "has_gate",
+      "@type": "@id"
+    },
+    "mentioned_in_quran": {
+      "@id": "mentioned_in_quran",
+      "@type": "@id"
+    },
+    "mentions_concept": {
+      "@id": "mentions_concept",
+      "@type": "@id"
+    },
+    "surah_number": "surah_number",
+    "surah_name_ar": "surah_name_ar",
+    "surah_name_en": "surah_name_en",
+    "ayah_number": "ayah_number",
+    "quran_reference": "quran_reference",
+    "islam_pillar": {
+      "@id": "islam_pillar",
+      "@type": "@id"
+    },
+    "represented_by": {
+      "@id": "represented_by",
+      "@type": "@id"
+    },
+    "performed_in_city": {
+      "@id": "performed_in_city",
+      "@type": "@id"
+    },
+    "pillar_order": "pillar_order",
+    "creator": "creator",
+    "title": "title",
+    "data_identifier": "data_identifier",
+    "publisher": "publisher",
+    "publication_date": "publication_date",
+    "summary": "summary",
+    "keywords": "keywords"
+  },
+  "@graph": [
+    {
+      "id": "Journey",
+      "type": "Class",
+      "label_en": "Journey",
+      "label_ar": "رحلة",
+      "definition": "A structured pilgrimage or visit path performed by the user.",
+      "creator": "Ghader Kurdi",
+      "title": "Journey",
+      "data_identifier": "Journey",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A structured pilgrimage or visit path performed by the user.",
+      "keywords": [
+        "Class",
+        "Journey",
+        "رحلة"
+      ]
+    },
+    {
+      "id": "HajjJourney",
+      "type": "Journey",
+      "label_en": "Hajj Journey",
+      "label_ar": "رحلة الحج",
+      "definition": "The pilgrimage journey performed during the Hajj season.",
+      "journey_type": "hajj",
+      "has_ritual": [
+        "AlIhram",
+        "Tawaf",
+        "Sai",
+        "StandingInArafat",
+        "SpendingNightInMuzdalifah",
+        "Rami",
+        "HairShaving",
+        "SpendingNightInMina"
+      ],
+      "has_occasion": [
+        "DayOfTarwiyah",
+        "DayOfArafat",
+        "MuzdalifahNight",
+        "EidAlAdha",
+        "FirstTashreeqNight",
+        "DaysOfTashreeq"
+      ],
+      "mentioned_in_quran": [
+        "QuranVerse_22_27"
+      ],
+      "islam_pillar": [
+        "HajjPillar"
+      ],
+      "performed_in_city": [
+        "MakkahCity"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Hajj Journey",
+      "data_identifier": "HajjJourney",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The pilgrimage journey performed during the Hajj season.",
+      "keywords": [
+        "Journey",
+        "HajjJourney",
+        "Hajj Journey",
+        "رحلة الحج",
+        "hajj"
+      ]
+    },
+    {
+      "id": "UmrahJourney",
+      "type": "Journey",
+      "label_en": "Umrah Journey",
+      "label_ar": "رحلة العمرة",
+      "definition": "The pilgrimage journey centered on Ihram, Tawaf, and Sa'i outside the full Hajj sequence.",
+      "journey_type": "umrah",
+      "has_ritual": [
+        "AlIhram",
+        "Tawaf",
+        "Sai",
+        "HairShaving"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Umrah Journey",
+      "data_identifier": "UmrahJourney",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The pilgrimage journey centered on Ihram, Tawaf, and Sa'i outside the full Hajj sequence.",
+      "keywords": [
+        "Journey",
+        "UmrahJourney",
+        "Umrah Journey",
+        "رحلة العمرة",
+        "umrah"
+      ]
+    },
+    {
+      "id": "Ritual",
+      "type": "Class",
+      "label_en": "Ritual",
+      "label_ar": "نسك",
+      "definition": "A worship action or ritual state in the pilgrimage journey.",
+      "creator": "Ghader Kurdi",
+      "title": "Ritual",
+      "data_identifier": "Ritual",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A worship action or ritual state in the pilgrimage journey.",
+      "keywords": [
+        "Class",
+        "Ritual",
+        "نسك"
+      ]
+    },
+    {
+      "id": "ReligiousOccasion",
+      "type": "Class",
+      "label_en": "Religious Occasion",
+      "label_ar": "مناسبة دينية",
+      "definition": "A religiously significant time window in the Hajj journey.",
+      "creator": "Ghader Kurdi",
+      "title": "Religious Occasion",
+      "data_identifier": "ReligiousOccasion",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A religiously significant time window in the Hajj journey.",
+      "keywords": [
+        "Class",
+        "ReligiousOccasion",
+        "Religious Occasion",
+        "مناسبة دينية"
+      ]
+    },
+    {
+      "id": "RelationshipProperty",
+      "type": "Class",
+      "label_en": "Relationship Property",
+      "label_ar": "خاصية علاقة",
+      "definition": "A semantic relation used to connect ontology entities such as journeys, rituals, occasions, and places.",
+      "creator": "Ghader Kurdi",
+      "title": "Relationship Property",
+      "data_identifier": "RelationshipProperty",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A semantic relation used to connect ontology entities such as journeys, rituals, occasions, and places.",
+      "keywords": [
+        "Class",
+        "RelationshipProperty",
+        "Relationship Property",
+        "خاصية علاقة"
+      ]
+    },
+    {
+      "id": "part_of",
+      "type": "RelationshipProperty",
+      "label_en": "part of",
+      "label_ar": "جزء من",
+      "comment": "Connects a religious occasion, sacred place, or Hajj place to the larger journey or conceptual entity it belongs to.",
+      "domain": "ReligiousOccasion, SacredPlace, or HajjPlace",
+      "range": "Journey or broader ontology entity",
+      "example": "DayOfArafat part_of HajjJourney",
+      "creator": "Ghader Kurdi",
+      "title": "part of",
+      "data_identifier": "part_of",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a religious occasion, sacred place, or Hajj place to the larger journey or conceptual entity it belongs to.",
+      "keywords": [
+        "RelationshipProperty",
+        "part_of",
+        "part of",
+        "جزء من"
+      ]
+    },
+    {
+      "id": "ritual_of",
+      "type": "RelationshipProperty",
+      "label_en": "ritual of",
+      "label_ar": "نسك من",
+      "comment": "Connects a ritual to the pilgrimage journey in which the ritual is performed.",
+      "domain": "Ritual",
+      "range": "Journey",
+      "example": "AlIhram ritual_of HajjJourney",
+      "creator": "Ghader Kurdi",
+      "title": "ritual of",
+      "data_identifier": "ritual_of",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a ritual to the pilgrimage journey in which the ritual is performed.",
+      "keywords": [
+        "RelationshipProperty",
+        "ritual_of",
+        "ritual of",
+        "نسك من"
+      ]
+    },
+    {
+      "id": "has_ritual",
+      "type": "RelationshipProperty",
+      "label_en": "has ritual",
+      "label_ar": "يتضمن نسكًا",
+      "comment": "Connects a pilgrimage journey to one or more rituals that belong to that journey.",
+      "domain": "Journey",
+      "range": "Ritual",
+      "example": "HajjJourney has_ritual Tawaf",
+      "creator": "Ghader Kurdi",
+      "title": "has ritual",
+      "data_identifier": "has_ritual",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a pilgrimage journey to one or more rituals that belong to that journey.",
+      "keywords": [
+        "RelationshipProperty",
+        "has_ritual",
+        "has ritual",
+        "يتضمن نسكًا"
+      ]
+    },
+    {
+      "id": "has_sub_ritual",
+      "type": "RelationshipProperty",
+      "label_en": "has sub ritual",
+      "label_ar": "يتضمن نسكًا فرعيًا",
+      "comment": "Connects a general ritual to a more specific ritual type under it.",
+      "domain": "Ritual",
+      "range": "Ritual",
+      "example": "Tawaf has_sub_ritual TawafAlIfadhah",
+      "creator": "Ghader Kurdi",
+      "title": "has sub ritual",
+      "data_identifier": "has_sub_ritual",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a general ritual to a more specific ritual type under it.",
+      "keywords": [
+        "RelationshipProperty",
+        "has_sub_ritual",
+        "has sub ritual",
+        "يتضمن نسكًا فرعيًا"
+      ]
+    },
+    {
+      "id": "sub_ritual_of",
+      "type": "RelationshipProperty",
+      "label_en": "sub ritual of",
+      "label_ar": "نسك فرعي من",
+      "comment": "Connects a specific ritual type to the broader ritual category it belongs to.",
+      "domain": "Ritual",
+      "range": "Ritual",
+      "example": "TawafAlWadaa sub_ritual_of Tawaf",
+      "creator": "Ghader Kurdi",
+      "title": "sub ritual of",
+      "data_identifier": "sub_ritual_of",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a specific ritual type to the broader ritual category it belongs to.",
+      "keywords": [
+        "RelationshipProperty",
+        "sub_ritual_of",
+        "sub ritual of",
+        "نسك فرعي من"
+      ]
+    },
+    {
+      "id": "has_occasion",
+      "type": "RelationshipProperty",
+      "label_en": "has occasion",
+      "label_ar": "يتضمن مناسبة",
+      "comment": "Connects a pilgrimage journey to a religious occasion that occurs during that journey.",
+      "domain": "Journey",
+      "range": "ReligiousOccasion",
+      "example": "HajjJourney has_occasion DayOfArafat",
+      "creator": "Ghader Kurdi",
+      "title": "has occasion",
+      "data_identifier": "has_occasion",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a pilgrimage journey to a religious occasion that occurs during that journey.",
+      "keywords": [
+        "RelationshipProperty",
+        "has_occasion",
+        "has occasion",
+        "يتضمن مناسبة"
+      ]
+    },
+    {
+      "id": "precedes",
+      "type": "RelationshipProperty",
+      "label_en": "precedes",
+      "label_ar": "يسبق",
+      "comment": "Connects an entity to another entity that usually occurs after it in the ritual or temporal sequence.",
+      "domain": "Ritual or ReligiousOccasion",
+      "range": "Ritual or ReligiousOccasion",
+      "example": "DayOfArafat precedes EidAlAdha",
+      "creator": "Ghader Kurdi",
+      "title": "precedes",
+      "data_identifier": "precedes",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects an entity to another entity that usually occurs after it in the ritual or temporal sequence.",
+      "keywords": [
+        "RelationshipProperty",
+        "precedes",
+        "يسبق"
+      ]
+    },
+    {
+      "id": "follows",
+      "type": "RelationshipProperty",
+      "label_en": "follows",
+      "label_ar": "يتبع",
+      "comment": "Connects an entity to another entity that usually occurs before it in the ritual or temporal sequence.",
+      "domain": "Ritual or ReligiousOccasion",
+      "range": "Ritual or ReligiousOccasion",
+      "example": "Rami follows StandingInArafat",
+      "creator": "Ghader Kurdi",
+      "title": "follows",
+      "data_identifier": "follows",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects an entity to another entity that usually occurs before it in the ritual or temporal sequence.",
+      "keywords": [
+        "RelationshipProperty",
+        "follows",
+        "يتبع"
+      ]
+    },
+    {
+      "id": "associated_place",
+      "type": "RelationshipProperty",
+      "label_en": "associated place",
+      "label_ar": "يرتبط بمكان",
+      "comment": "Connects a ritual or religious occasion to the sacred or Hajj place where it is performed or primarily associated.",
+      "domain": "Ritual or ReligiousOccasion",
+      "range": "SacredPlace or HajjPlace",
+      "example": "Rami associated_place JamaratPlace",
+      "creator": "Ghader Kurdi",
+      "title": "associated place",
+      "data_identifier": "associated_place",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a ritual or religious occasion to the sacred or Hajj place where it is performed or primarily associated.",
+      "keywords": [
+        "RelationshipProperty",
+        "associated_place",
+        "associated place",
+        "يرتبط بمكان"
+      ]
+    },
+    {
+      "id": "associated_occasion",
+      "type": "RelationshipProperty",
+      "label_en": "associated occasion",
+      "label_ar": "يرتبط بمناسبة",
+      "comment": "Connects a ritual to the religious occasion or time window in which it is primarily performed.",
+      "domain": "Ritual",
+      "range": "ReligiousOccasion",
+      "example": "SpendingNightInMina associated_occasion FirstTashreeqNight",
+      "creator": "Ghader Kurdi",
+      "title": "associated occasion",
+      "data_identifier": "associated_occasion",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a ritual to the religious occasion or time window in which it is primarily performed.",
+      "keywords": [
+        "RelationshipProperty",
+        "associated_occasion",
+        "associated occasion",
+        "يرتبط بمناسبة"
+      ]
+    },
+    {
+      "id": "located_in_city",
+      "type": "RelationshipProperty",
+      "label_en": "located in city",
+      "label_ar": "يقع في مدينة",
+      "comment": "Connects a sacred or Hajj place to the city where it is located.",
+      "domain": "SacredPlace or HajjPlace",
+      "range": "HajjPlace city node",
+      "example": "AlHaramPlace located_in_city MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "located in city",
+      "data_identifier": "located_in_city",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a sacred or Hajj place to the city where it is located.",
+      "keywords": [
+        "RelationshipProperty",
+        "located_in_city",
+        "located in city",
+        "يقع في مدينة"
+      ]
+    },
+    {
+      "id": "contains_place",
+      "type": "RelationshipProperty",
+      "label_en": "contains place",
+      "label_ar": "تضم مكانًا",
+      "comment": "Connects a city concept to the sacred or Hajj places located within it.",
+      "domain": "HajjPlace city node",
+      "range": "SacredPlace or HajjPlace",
+      "example": "MadinahCity contains_place ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "contains place",
+      "data_identifier": "contains_place",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a city concept to the sacred or Hajj places located within it.",
+      "keywords": [
+        "RelationshipProperty",
+        "contains_place",
+        "contains place",
+        "تضم مكانًا"
+      ]
+    },
+    {
+      "id": "gate_of",
+      "type": "RelationshipProperty",
+      "label_en": "gate of",
+      "label_ar": "باب لـ",
+      "comment": "Connects a gate spatial semantic node to the mosque or sacred place it belongs to.",
+      "domain": "SpatialZoneSemantic with spatial_zone_type gate",
+      "range": "SacredPlace",
+      "example": "ZoneSemantic_bab_al_salam_haram gate_of AlHaramPlace",
+      "creator": "Ghader Kurdi",
+      "title": "gate of",
+      "data_identifier": "gate_of",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a gate spatial semantic node to the mosque or sacred place it belongs to.",
+      "keywords": [
+        "RelationshipProperty",
+        "gate_of",
+        "gate of",
+        "باب لـ"
+      ]
+    },
+    {
+      "id": "has_gate",
+      "type": "RelationshipProperty",
+      "label_en": "has gate",
+      "label_ar": "له باب",
+      "comment": "Connects a mosque or sacred place to the gate spatial semantic nodes that belong to it.",
+      "domain": "SacredPlace",
+      "range": "SpatialZoneSemantic with spatial_zone_type gate",
+      "example": "ProphetMosquePlace has_gate ZoneSemantic_bab_quba_prophet_mosque",
+      "creator": "Ghader Kurdi",
+      "title": "has gate",
+      "data_identifier": "has_gate",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a mosque or sacred place to the gate spatial semantic nodes that belong to it.",
+      "keywords": [
+        "RelationshipProperty",
+        "has_gate",
+        "has gate",
+        "له باب"
+      ]
+    },
+    {
+      "id": "mentioned_in_quran",
+      "type": "RelationshipProperty",
+      "label_en": "mentioned in Quran",
+      "label_ar": "مذكور في القرآن",
+      "comment": "Connects an ontology concept to a Quran verse where the concept is mentioned or directly referenced.",
+      "domain": "Ontology concept",
+      "range": "QuranVerse",
+      "example": "SafaMarwa mentioned_in_quran QuranVerse_2_158",
+      "creator": "Ghader Kurdi",
+      "title": "mentioned in Quran",
+      "data_identifier": "mentioned_in_quran",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects an ontology concept to a Quran verse where the concept is mentioned or directly referenced.",
+      "keywords": [
+        "RelationshipProperty",
+        "mentioned_in_quran",
+        "mentioned in Quran",
+        "مذكور في القرآن"
+      ]
+    },
+    {
+      "id": "mentions_concept",
+      "type": "RelationshipProperty",
+      "label_en": "mentions concept",
+      "label_ar": "تذكر مفهومًا",
+      "comment": "Connects a Quran verse to ontology concepts mentioned or directly referenced by the verse.",
+      "domain": "QuranVerse",
+      "range": "Ontology concept",
+      "example": "QuranVerse_2_158 mentions_concept SafaMarwa",
+      "creator": "Ghader Kurdi",
+      "title": "mentions concept",
+      "data_identifier": "mentions_concept",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a Quran verse to ontology concepts mentioned or directly referenced by the verse.",
+      "keywords": [
+        "RelationshipProperty",
+        "mentions_concept",
+        "mentions concept",
+        "تذكر مفهومًا"
+      ]
+    },
+    {
+      "id": "QuranVerse_2_158",
+      "type": "QuranVerse",
+      "label_en": "Al-Baqarah 2:158",
+      "label_ar": "البقرة 158",
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_en": "Al-Baqarah",
+      "ayah_number": 158,
+      "quran_reference": "2:158",
+      "mentions_concept": [
+        "SafaMarwa",
+        "ZoneSemantic_safa",
+        "ZoneSemantic_marwah"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Baqarah 2:158",
+      "data_identifier": "QuranVerse_2_158",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-Baqarah 2:158 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_2_158",
+        "Al-Baqarah 2:158",
+        "البقرة 158",
+        "2:158"
+      ]
+    },
+    {
+      "id": "AlIhram",
+      "type": "Ritual",
+      "label_en": "Al-Ihram",
+      "label_ar": "الإحرام",
+      "alternative_labels": [
+        "The State of Consecration",
+        "State of Consecration",
+        "Ihram"
+      ],
+      "definition": "Al Ihram is the state of consecration entered by the pilgrim before performing Hajj or Umrah rituals.",
+      "ritual_of": [
+        "HajjJourney",
+        "UmrahJourney"
+      ],
+      "precedes": [
+        "Tawaf",
+        "TawafAlIfadhah",
+        "TawafAlWadaa",
+        "Sai",
+        "StandingInArafat",
+        "SpendingNightInMuzdalifah",
+        "Rami",
+        "SpendingNightInMina",
+        "HairShaving"
+      ],
+      "associated_place": "MiqatPlace",
+      "associated_zone_ids": [
+        "dhul_hulayfah_miqat",
+        "juhfah_miqat",
+        "qarn_al_manazil_miqat",
+        "yalamlam_miqat",
+        "dhat_irq_miqat"
+      ],
+      "outside_zone_ids": [
+        "makkah_haram_boundary",
+        "alharam"
+      ],
+      "spatial_rule": "User is inside or near a Miqat geofence. Standard Miqat geofences are outside the Makkah Haram boundary and outside Al-Haram.",
+      "movement_rule": "Movement may be stationary, arrival, or onward movement after entering the Miqat boundary.",
+      "context_state": "ihram_preparation_state",
+      "inferred_need": "Ihram Preparation + Guidance",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj or umrah",
+        "active zone type is miqat, or user is inside Makkah for Hajj",
+        "boundary state is inside, near, or entered"
+      ],
+      "knowledge_intent": "ihram_guidance",
+      "special_rules": [
+        {
+          "id": "hajj_ihram_from_makkah_on_tarwiyah",
+          "label_en": "Hajj Ihram from Makkah on the Day of Tarwiyah",
+          "label_ar": "الإحرام بالحج من مكة في يوم التروية",
+          "condition": "The user is in Makkah, has completed Umrah and exited Ihram, or is a Makkah resident intending Hajj.",
+          "temporal_rule": {
+            "calendar": "Hijri",
+            "month": "Dhu al-Hijjah",
+            "preferred_day": 8,
+            "permissible_day": 9
+          },
+          "spatial_rule": "For this special case, the Ihram place is the user's current place in Makkah, such as residence or accommodation, and is not modeled as alharam or makkah_haram_boundary associated zones.",
+          "context_state": "hajj_ihram_from_makkah_state",
+          "inferred_need": "Ihram Intention + Hajj Preparation",
+          "recommended_message_type": "Guidance",
+          "notes": "If the pilgrim delays entering Ihram for Hajj until the ninth day of Dhu al-Hijjah, this should be treated as permissible and not as an error state."
+        }
+      ],
+      "mentioned_in_quran": [
+        "QuranVerse_5_95"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Ihram",
+      "data_identifier": "AlIhram",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al Ihram is the state of consecration entered by the pilgrim before performing Hajj or Umrah rituals.",
+      "keywords": [
+        "Ritual",
+        "AlIhram",
+        "Al-Ihram",
+        "الإحرام",
+        "The State of Consecration",
+        "State of Consecration",
+        "Ihram"
+      ]
+    },
+    {
+      "id": "Tawaf",
+      "type": "Ritual",
+      "label_en": "Tawaf",
+      "label_ar": "الطواف",
+      "definition": "The ritual of circumambulation around the Kaaba.",
+      "definition_ar": "الطواف نسك يكون بالدوران حول الكعبة سبعة أشواط.",
+      "ritual_of": [
+        "HajjJourney",
+        "UmrahJourney"
+      ],
+      "has_sub_ritual": [
+        "TawafAlIfadhah",
+        "TawafAlWadaa"
+      ],
+      "follows": "AlIhram",
+      "precedes": "Sai",
+      "associated_place": "KaabaAndMataf",
+      "associated_zone_ids": [
+        "kaaba",
+        "tawaf",
+        "alharam"
+      ],
+      "spatial_rule": "User is inside or near the Tawaf or Kaaba geofence.",
+      "movement_rule": "Circular trajectory around the Kaaba reference point.",
+      "required_rounds": 7,
+      "round_count_rule": "Tawaf consists of seven circuits around the Kaaba.",
+      "sequence_rule": "Each complete circuit around the Kaaba counts as one Tawaf round.",
+      "context_state": "ritual_performance_state",
+      "inferred_need": "Ritual Performance + Spiritual Focus",
+      "recommended_message_type": "Faith",
+      "priority": "High",
+      "evidence_required": [
+        "active zone is kaaba, tawaf, or alharam",
+        "trajectory pattern is tawaf_circular_movement",
+        "movement state is walking"
+      ],
+      "knowledge_intent": "tawaf_faith_guidance",
+      "creator": "Ghader Kurdi",
+      "title": "Tawaf",
+      "data_identifier": "Tawaf",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The ritual of circumambulation around the Kaaba.",
+      "keywords": [
+        "Ritual",
+        "Tawaf",
+        "الطواف"
+      ]
+    },
+    {
+      "id": "TawafAlIfadhah",
+      "type": "Ritual",
+      "label_en": "Tawaf al-Ifadhah",
+      "label_ar": "طواف الإفاضة",
+      "definition": "A Hajj Tawaf performed after standing in Arafat and after the pilgrim proceeds from the Hajj sites back to Al-Haram.",
+      "ritual_of": "HajjJourney",
+      "sub_ritual_of": "Tawaf",
+      "follows": "StandingInArafat",
+      "associated_place": "KaabaAndMataf",
+      "associated_zone_ids": [
+        "kaaba",
+        "tawaf",
+        "alharam"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day_or_after": 10
+      },
+      "spatial_rule": "User is inside or near the Tawaf or Kaaba geofence during the Hajj journey after Arafat.",
+      "movement_rule": "Circular trajectory around the Kaaba reference point.",
+      "context_state": "tawaf_al_ifadhah_state",
+      "inferred_need": "Ritual Performance + Spiritual Focus",
+      "recommended_message_type": "Faith",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "active zone is kaaba, tawaf, or alharam",
+        "trajectory pattern is tawaf_circular_movement",
+        "Hijri date is 10 Dhu al-Hijjah or later in the Hajj sequence",
+        "Standing in Arafat has already occurred or current stage follows Arafat"
+      ],
+      "knowledge_intent": "tawaf_ifadhah_guidance",
+      "creator": "Ghader Kurdi",
+      "title": "Tawaf al-Ifadhah",
+      "data_identifier": "TawafAlIfadhah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A Hajj Tawaf performed after standing in Arafat and after the pilgrim proceeds from the Hajj sites back to Al-Haram.",
+      "keywords": [
+        "Ritual",
+        "TawafAlIfadhah",
+        "Tawaf al-Ifadhah",
+        "طواف الإفاضة"
+      ]
+    },
+    {
+      "id": "TawafAlWadaa",
+      "type": "Ritual",
+      "label_en": "Tawaf al-Wadaa",
+      "label_ar": "طواف الوداع",
+      "definition": "The farewell Tawaf performed before leaving Makkah at the end of the Hajj journey.",
+      "ritual_of": "HajjJourney",
+      "sub_ritual_of": "Tawaf",
+      "associated_place": "KaabaAndMataf",
+      "associated_zone_ids": [
+        "kaaba",
+        "tawaf",
+        "alharam",
+        "makkah_city"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day_or_after": 10,
+        "journey_position": "before_departure_from_makkah"
+      },
+      "spatial_rule": "User is performing Tawaf in Al-Haram near the end of the Hajj journey or before departing Makkah.",
+      "movement_rule": "Circular trajectory around the Kaaba followed by departure movement away from Al-Haram or Makkah.",
+      "context_state": "tawaf_al_wadaa_state",
+      "inferred_need": "Farewell Ritual + Hospitality",
+      "recommended_message_type": "Faith",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "active zone is kaaba, tawaf, or alharam",
+        "trajectory pattern is tawaf_circular_movement",
+        "movement trend indicates departure after Tawaf or journey stage is ending",
+        "user is before departure from Makkah"
+      ],
+      "knowledge_intent": "tawaf_wadaa_guidance",
+      "creator": "Ghader Kurdi",
+      "title": "Tawaf al-Wadaa",
+      "data_identifier": "TawafAlWadaa",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The farewell Tawaf performed before leaving Makkah at the end of the Hajj journey.",
+      "keywords": [
+        "Ritual",
+        "TawafAlWadaa",
+        "Tawaf al-Wadaa",
+        "طواف الوداع"
+      ]
+    },
+    {
+      "id": "Sai",
+      "type": "Ritual",
+      "label_en": "Sa'i",
+      "label_ar": "السعي",
+      "definition": "The ritual movement between Safa and Marwa.",
+      "definition_ar": "السعي نسك يكون بين الصفا والمروة سبعة أشواط، يبدأ من الصفا وينتهي عند المروة.",
+      "ritual_of": [
+        "HajjJourney",
+        "UmrahJourney"
+      ],
+      "follows": "Tawaf",
+      "associated_place": "SafaMarwa",
+      "associated_zone_ids": [
+        "safa",
+        "marwah",
+        "sai"
+      ],
+      "spatial_rule": "User is inside or near Safa, Marwa, or the Sa'i path.",
+      "movement_rule": "Directional movement along the Safa-Marwa axis.",
+      "required_rounds": 7,
+      "start_zone_id": "safa",
+      "end_zone_id": "marwah",
+      "round_count_rule": "Sa'i consists of seven one-way traversals between Safa and Marwa.",
+      "sequence_rule": "Sa'i starts at Safa and ends at Marwah on the seventh traversal.",
+      "context_state": "ritual_performance_state",
+      "inferred_need": "Ritual Performance + Guidance",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "evidence_required": [
+        "active zone is safa, marwah, or Sa'i path",
+        "trajectory pattern is sai_directional_movement",
+        "movement state is walking"
+      ],
+      "knowledge_intent": "sai_guidance",
+      "precedes": [
+        "HairShaving"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Sa'i",
+      "data_identifier": "Sai",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The ritual movement between Safa and Marwa.",
+      "keywords": [
+        "Ritual",
+        "Sai",
+        "Sa'i",
+        "السعي"
+      ]
+    },
+    {
+      "id": "StandingInArafat",
+      "type": "Ritual",
+      "label_en": "Standing in Arafat",
+      "label_ar": "الوقوف بعرفة",
+      "definition": "The Hajj ritual of being present in Arafat on the ninth day of the Islamic month of Dhu al-Hijjah, with the pilgrim remaining in Arafat until sunset.",
+      "definition_ar": "الوقوف بعرفة هو حضور الحاج في عرفة في اليوم التاسع من ذي الحجة، ويبقى فيها إلى غروب الشمس.",
+      "ritual_of": "HajjJourney",
+      "follows": "Sai",
+      "associated_place": "ArafatPlace",
+      "associated_zone_ids": [
+        "arafat",
+        "jabal_al_rahmah",
+        "namirah_mosque",
+        "jabal_namirah",
+        "mashair_train_arafat_3_station"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 9,
+        "until": "sunset",
+        "followed_by": "MuzdalifahNight"
+      },
+      "spatial_rule": "User is inside or near Arafat-related geofences on the ninth day of Dhu al-Hijjah during the Hajj journey, and remains there until sunset before proceeding to Muzdalifah.",
+      "movement_rule": "May include stationary presence, slow movement, or limited movement within Arafat-related zones.",
+      "context_state": "standing_in_arafat_state",
+      "inferred_need": "Spiritual Reflection + Reassurance",
+      "recommended_message_type": "Faith",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 9 Dhu al-Hijjah",
+        "active zone is Arafat-related",
+        "time is before or at sunset on Day of Arafat",
+        "user is inside, near, or stationary within Arafat-related geofences"
+      ],
+      "knowledge_intent": "standing_arafat_reflection",
+      "notes": "This node models the ritual act, while DayOfArafat models the religious occasion.",
+      "mentioned_in_quran": [
+        "QuranVerse_2_198"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Standing in Arafat",
+      "data_identifier": "StandingInArafat",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Hajj ritual of being present in Arafat on the ninth day of the Islamic month of Dhu al-Hijjah, with the pilgrim remaining in Arafat until sunset.",
+      "keywords": [
+        "Ritual",
+        "StandingInArafat",
+        "Standing in Arafat",
+        "الوقوف بعرفة"
+      ]
+    },
+    {
+      "id": "SpendingNightInMuzdalifah",
+      "type": "Ritual",
+      "label_en": "Spending the night in Muzdalifah",
+      "label_ar": "المبيت بمزدلفة",
+      "definition": "The Hajj ritual state of remaining in Muzdalifah, whose time begins after sunset on the Day of Arafat and continues through the night before the tenth day of Dhu al-Hijjah.",
+      "definition_ar": "يبدأ وقت الوقوف والمبيت بمزدلفة من بعد غروب شمس يوم عرفة، ويمتد خلال الليلة التي تسبق اليوم العاشر من ذي الحجة.",
+      "ritual_of": "HajjJourney",
+      "follows": "StandingInArafat",
+      "precedes": "Rami",
+      "associated_place": "MuzdalifahPlace",
+      "associated_occasion": "MuzdalifahNight",
+      "associated_zone_ids": [
+        "muzdalifah",
+        "mashair_train_muzdalifah_station"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 9,
+        "starts_after": "sunset_on_day_of_arafat",
+        "time_window": "after_sunset_to_fajr",
+        "next_day": 10
+      },
+      "spatial_rule": "User is inside or near Muzdalifah-related geofences after leaving Arafat and before proceeding to Mina or the Jamarat.",
+      "movement_rule": "Stationary presence, very limited movement, or repeated location samples within Muzdalifah during the night window.",
+      "context_state": "muzdalifah_overnight_state",
+      "inferred_need": "Rest + Ritual Reassurance",
+      "recommended_message_type": "Hospitality",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "time is after sunset on Day of Arafat or night before 10 Dhu al-Hijjah",
+        "active zone is Muzdalifah-related",
+        "user is stationary or moving within a limited radius in Muzdalifah"
+      ],
+      "knowledge_intent": "muzdalifah_overnight_guidance",
+      "notes": "This node models the ritual act of spending the night in Muzdalifah after Arafat, while MuzdalifahNight models the corresponding religious time window.",
+      "creator": "Ghader Kurdi",
+      "title": "Spending the night in Muzdalifah",
+      "data_identifier": "SpendingNightInMuzdalifah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Hajj ritual state of remaining in Muzdalifah, whose time begins after sunset on the Day of Arafat and continues through the night before the tenth day of Dhu al-Hijjah.",
+      "keywords": [
+        "Ritual",
+        "SpendingNightInMuzdalifah",
+        "Spending the night in Muzdalifah",
+        "المبيت بمزدلفة"
+      ]
+    },
+    {
+      "id": "SpendingNightInMina",
+      "type": "Ritual",
+      "label_en": "Spending the night in Mina",
+      "label_ar": "المبيت بمنى",
+      "definition": "The Hajj ritual state of remaining in Mina overnight during the Hajj sequence, including the first Tashreeq night associated with the tenth day of Dhu al-Hijjah.",
+      "ritual_of": "HajjJourney",
+      "follows": "Rami",
+      "associated_place": "MinaPlace",
+      "associated_occasion": "FirstTashreeqNight",
+      "associated_zone_ids": [
+        "mina"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 10,
+        "time_window": "night"
+      },
+      "spatial_rule": "User is inside or near the Mina geofence during the night associated with the tenth day of Dhu al-Hijjah.",
+      "movement_rule": "Stationary presence, very limited movement, or repeated location samples within Mina during the night window.",
+      "context_state": "mina_overnight_state",
+      "inferred_need": "Rest + Ritual Reassurance",
+      "recommended_message_type": "Hospitality",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 10 Dhu al-Hijjah",
+        "time window is night",
+        "active zone is Mina",
+        "user is stationary or moving within a limited radius in Mina"
+      ],
+      "knowledge_intent": "mina_overnight_guidance",
+      "notes": "This node models the ritual act of spending the night in Mina, while FirstTashreeqNight models the corresponding religious time window.",
+      "creator": "Ghader Kurdi",
+      "title": "Spending the night in Mina",
+      "data_identifier": "SpendingNightInMina",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Hajj ritual state of remaining in Mina overnight during the Hajj sequence, including the first Tashreeq night associated with the tenth day of Dhu al-Hijjah.",
+      "keywords": [
+        "Ritual",
+        "SpendingNightInMina",
+        "Spending the night in Mina",
+        "المبيت بمنى"
+      ]
+    },
+    {
+      "id": "Rami",
+      "type": "Ritual",
+      "label_en": "Stoning of the Devil / Rami",
+      "label_ar": "رمي الجمرات",
+      "definition": "The Hajj ritual of stoning the Jamarat, also called Rami, which takes place at three stone pillars in Mina.",
+      "ritual_of": "HajjJourney",
+      "follows": [
+        "StandingInArafat",
+        "SpendingNightInMuzdalifah"
+      ],
+      "associated_place": "JamaratPlace",
+      "associated_zone_ids": [
+        "jamarat_al_aqaba",
+        "jamarat_al_wusta",
+        "jamarat_al_sughra",
+        "mina"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "days": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "spatial_rule": "User is inside or near Jamarat-related geofences in Mina.",
+      "movement_rule": "Directional movement toward one of the Jamarat zones, slow movement in dense crowds, or stationary periods near the Jamarat area.",
+      "context_state": "rami_performance_state",
+      "inferred_need": "Ritual Guidance + Crowd Awareness",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "active zone is Jamarat-related or Mina",
+        "Hijri date is 10, 11, 12, or 13 Dhu al-Hijjah",
+        "movement is toward, within, or near the Jamarat area"
+      ],
+      "knowledge_intent": "rami_guidance",
+      "notes": "The current spatial dataset contains Jamarat al-Aqaba and Jamarat al-Sughra. Jamarat al-Wusta is included in the ontology as a required concept and should be linked once its geofence is added.",
+      "precedes": [
+        "HairShaving"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Stoning of the Devil / Rami",
+      "data_identifier": "Rami",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Hajj ritual of stoning the Jamarat, also called Rami, which takes place at three stone pillars in Mina.",
+      "keywords": [
+        "Ritual",
+        "Rami",
+        "Stoning of the Devil / Rami",
+        "رمي الجمرات"
+      ]
+    },
+    {
+      "id": "HairShaving",
+      "type": "Ritual",
+      "label_en": "Hair shaving or trimming",
+      "label_ar": "حلق الشعر أو تقصيره",
+      "alternative_labels": [
+        "Halq",
+        "Taqsir",
+        "Shaving the head",
+        "Trimming the hair",
+        "حلق الشعر",
+        "التقصير"
+      ],
+      "definition": "Hair shaving or trimming is the ritual act of shaving the head or shortening the hair to complete the required release from Ihram after the relevant Hajj or Umrah rites.",
+      "definition_ar": "حلق الشعر أو تقصيره نسك يتحلل به الحاج أو المعتمر بعد أداء المناسك المطلوبة؛ يكون في العمرة بعد السعي، وفي الحج غالبا بعد رمي جمرة العقبة يوم النحر.",
+      "ritual_of": [
+        "HajjJourney",
+        "UmrahJourney"
+      ],
+      "follows": [
+        "Sai",
+        "Rami"
+      ],
+      "context_state": "hair_shaving_state",
+      "inferred_need": "Completion + Exit Ihram Guidance",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "creator": "Ghader Kurdi",
+      "title": "Hair shaving or trimming",
+      "data_identifier": "HairShaving",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Hair shaving or trimming is the ritual act of shaving the head or shortening the hair to complete the required release from Ihram after the relevant Hajj or Umrah rites.",
+      "keywords": [
+        "Ritual",
+        "HairShaving",
+        "Hair shaving or trimming",
+        "حلق الشعر أو تقصيره",
+        "Halq",
+        "Taqsir",
+        "Shaving the head",
+        "Trimming the hair",
+        "حلق الشعر",
+        "التقصير"
+      ]
+    },
+    {
+      "id": "DayOfTarwiyah",
+      "type": "ReligiousOccasion",
+      "label_en": "Day of Tarwiyah",
+      "label_ar": "يوم التروية",
+      "definition": "The eighth day of Dhu al-Hijjah in the Hajj sequence, commonly associated with preparing for Hajj movement and presence in Mina.",
+      "part_of": "HajjJourney",
+      "precedes": "DayOfArafat",
+      "associated_place": "MinaPlace",
+      "associated_zone_ids": [
+        "mina"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 8
+      },
+      "spatial_rule": "User is in or moving toward Mina during the eighth day of Dhu al-Hijjah, or is in Makkah preparing to enter Ihram for Hajj.",
+      "context_state": "tarwiyah_day_state",
+      "inferred_need": "Preparation + Guidance",
+      "recommended_message_type": "Guidance",
+      "priority": "Medium",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 8 Dhu al-Hijjah",
+        "active zone is Mina, movement is toward Mina, or user is in Makkah preparing for Hajj Ihram"
+      ],
+      "knowledge_intent": "tarwiyah_preparation_guidance",
+      "notes": "For a pilgrim who is in Makkah, has completed Umrah and exited Ihram, or is a Makkah resident intending Hajj, the eighth day of Dhu al-Hijjah is a preferred context for entering Ihram for Hajj. Delaying Ihram until the ninth day is permissible and should not be inferred as an invalid state.",
+      "creator": "Ghader Kurdi",
+      "title": "Day of Tarwiyah",
+      "data_identifier": "DayOfTarwiyah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The eighth day of Dhu al-Hijjah in the Hajj sequence, commonly associated with preparing for Hajj movement and presence in Mina.",
+      "keywords": [
+        "ReligiousOccasion",
+        "DayOfTarwiyah",
+        "Day of Tarwiyah",
+        "يوم التروية"
+      ]
+    },
+    {
+      "id": "DayOfArafat",
+      "type": "ReligiousOccasion",
+      "label_en": "Day of Arafat",
+      "label_ar": "يوم عرفة",
+      "alternative_labels": [
+        "Day of Hajj",
+        "Yawm Arafah",
+        "يوم الحج"
+      ],
+      "definition": "The ninth day of Dhu al-Hijjah and a central occasion in the Hajj journey associated with Arafat.",
+      "part_of": "HajjJourney",
+      "follows": "DayOfTarwiyah",
+      "precedes": "MuzdalifahNight",
+      "associated_place": "ArafatPlace",
+      "associated_zone_ids": [
+        "arafat",
+        "jabal_al_rahmah",
+        "namirah_mosque",
+        "jabal_namirah",
+        "mashair_train_arafat_3_station"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 9
+      },
+      "spatial_rule": "User is inside or near Arafat-related geofences during the Hajj journey.",
+      "context_state": "arafat_occasion_state",
+      "inferred_need": "Spiritual Reflection + Reassurance",
+      "recommended_message_type": "Faith",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 9 Dhu al-Hijjah or user is at Arafat",
+        "active zone is Arafat-related"
+      ],
+      "knowledge_intent": "arafat_reflection",
+      "notes": "Day of Arafat is the ninth day of Dhu al-Hijjah and is often described as the Day of Hajj because standing in Arafat is central to Hajj. It should not be conflated with Day of the Greater Hajj, which is commonly associated with the tenth day of Dhu al-Hijjah / Day of Nahr.",
+      "creator": "Ghader Kurdi",
+      "title": "Day of Arafat",
+      "data_identifier": "DayOfArafat",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The ninth day of Dhu al-Hijjah and a central occasion in the Hajj journey associated with Arafat.",
+      "keywords": [
+        "ReligiousOccasion",
+        "DayOfArafat",
+        "Day of Arafat",
+        "يوم عرفة",
+        "Day of Hajj",
+        "Yawm Arafah",
+        "يوم الحج"
+      ]
+    },
+    {
+      "id": "MuzdalifahNight",
+      "type": "ReligiousOccasion",
+      "label_en": "Night at Muzdalifah",
+      "label_ar": "ليلة المبيت بمزدلفة",
+      "alternative_labels": [
+        "Muzdalifah overnight",
+        "المبيت بمزدلفة"
+      ],
+      "definition": "The night spent in Muzdalifah beginning after sunset on the Day of Arafat and before proceeding to Mina on the tenth day of Dhu al-Hijjah.",
+      "definition_ar": "تبدأ ليلة المبيت بمزدلفة من بعد غروب شمس يوم عرفة، وتمتد إلى ما قبل التوجه إلى منى في اليوم العاشر من ذي الحجة.",
+      "part_of": "HajjJourney",
+      "follows": "DayOfArafat",
+      "precedes": "EidAlAdha",
+      "associated_place": "MuzdalifahPlace",
+      "associated_zone_ids": [
+        "muzdalifah",
+        "mashair_train_muzdalifah_station"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 9,
+        "starts_after": "sunset_on_day_of_arafat",
+        "time_window": "after_sunset_to_fajr",
+        "next_day": 10
+      },
+      "spatial_rule": "User is inside or near Muzdalifah-related geofences after leaving Arafat.",
+      "context_state": "muzdalifah_night_state",
+      "inferred_need": "Rest + Ritual Reassurance",
+      "recommended_message_type": "Hospitality",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "time is after sunset on Day of Arafat or night before 10 Dhu al-Hijjah",
+        "active zone is Muzdalifah-related"
+      ],
+      "knowledge_intent": "muzdalifah_night_guidance",
+      "notes": "This node models the time occasion, while SpendingNightInMuzdalifah models the ritual state performed in Muzdalifah during this night.",
+      "creator": "Ghader Kurdi",
+      "title": "Night at Muzdalifah",
+      "data_identifier": "MuzdalifahNight",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The night spent in Muzdalifah beginning after sunset on the Day of Arafat and before proceeding to Mina on the tenth day of Dhu al-Hijjah.",
+      "keywords": [
+        "ReligiousOccasion",
+        "MuzdalifahNight",
+        "Night at Muzdalifah",
+        "ليلة المبيت بمزدلفة",
+        "Muzdalifah overnight",
+        "المبيت بمزدلفة"
+      ]
+    },
+    {
+      "id": "EidAlAdha",
+      "type": "ReligiousOccasion",
+      "label_en": "Eid al-Adha",
+      "label_ar": "عيد الأضحى",
+      "alternative_labels": [
+        "Day of Nahr",
+        "Day of Sacrifice",
+        "Day of the Greater Hajj",
+        "Yawm al-Hajj al-Akbar",
+        "يوم النحر",
+        "يوم الحج الأكبر"
+      ],
+      "definition": "The tenth day of Dhu al-Hijjah and a major religious occasion during the Hajj period.",
+      "part_of": "HajjJourney",
+      "follows": "MuzdalifahNight",
+      "precedes": "FirstTashreeqNight",
+      "associated_place": "MinaPlace",
+      "associated_zone_ids": [
+        "mina",
+        "jamarat_al_aqaba"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 10
+      },
+      "spatial_rule": "User is in Hajj sites such as Mina or Jamarat during Eid al-Adha.",
+      "context_state": "eid_al_adha_state",
+      "inferred_need": "Ritual Guidance + Hospitality",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 10 Dhu al-Hijjah",
+        "active zone is Mina or Jamarat-related"
+      ],
+      "knowledge_intent": "eid_hajj_guidance",
+      "notes": "Day of the Greater Hajj / Yawm al-Hajj al-Akbar is modeled here under the tenth day of Dhu al-Hijjah to keep the ontology's temporal inference distinct from DayOfArafat on the ninth day.",
+      "creator": "Ghader Kurdi",
+      "title": "Eid al-Adha",
+      "data_identifier": "EidAlAdha",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The tenth day of Dhu al-Hijjah and a major religious occasion during the Hajj period.",
+      "keywords": [
+        "ReligiousOccasion",
+        "EidAlAdha",
+        "Eid al-Adha",
+        "عيد الأضحى",
+        "Day of Nahr",
+        "Day of Sacrifice",
+        "Day of the Greater Hajj",
+        "Yawm al-Hajj al-Akbar",
+        "يوم النحر",
+        "يوم الحج الأكبر"
+      ]
+    },
+    {
+      "id": "FirstTashreeqNight",
+      "type": "ReligiousOccasion",
+      "label_en": "First Tashreeq Night",
+      "label_ar": "ليلة التشريق الأولى",
+      "definition": "The first Tashreeq night associated with the tenth day of Dhu al-Hijjah, during which the pilgrim spends the night in Mina.",
+      "part_of": "HajjJourney",
+      "follows": "EidAlAdha",
+      "precedes": "DaysOfTashreeq",
+      "associated_place": "MinaPlace",
+      "associated_zone_ids": [
+        "mina"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "day": 10,
+        "time_window": "night"
+      },
+      "spatial_rule": "User is inside or near Mina during the night associated with 10 Dhu al-Hijjah.",
+      "context_state": "first_tashreeq_night_state",
+      "inferred_need": "Rest + Ritual Reassurance",
+      "recommended_message_type": "Hospitality",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 10 Dhu al-Hijjah",
+        "time window is night",
+        "active zone is Mina"
+      ],
+      "knowledge_intent": "first_tashreeq_night_guidance",
+      "notes": "This node models the time occasion, while SpendingNightInMina models the ritual state performed in Mina during this night.",
+      "creator": "Ghader Kurdi",
+      "title": "First Tashreeq Night",
+      "data_identifier": "FirstTashreeqNight",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The first Tashreeq night associated with the tenth day of Dhu al-Hijjah, during which the pilgrim spends the night in Mina.",
+      "keywords": [
+        "ReligiousOccasion",
+        "FirstTashreeqNight",
+        "First Tashreeq Night",
+        "ليلة التشريق الأولى"
+      ]
+    },
+    {
+      "id": "DaysOfTashreeq",
+      "type": "ReligiousOccasion",
+      "label_en": "Days of Tashreeq",
+      "label_ar": "أيام التشريق",
+      "alternative_labels": [
+        "أيام التشريق: الحادي عشر والثاني عشر والثالث عشر من شهر ذي الحجة"
+      ],
+      "definition": "The eleventh, twelfth, and thirteenth days of Dhu al-Hijjah during the Hajj period.",
+      "definition_ar": "أيام التشريق هي الحادي عشر والثاني عشر والثالث عشر من شهر ذي الحجة.",
+      "part_of": "HajjJourney",
+      "follows": "FirstTashreeqNight",
+      "associated_place": "MinaPlace",
+      "associated_zone_ids": [
+        "mina",
+        "jamarat_al_aqaba",
+        "jamarat_al_sughra"
+      ],
+      "temporal_rule": {
+        "calendar": "Hijri",
+        "month": "Dhu al-Hijjah",
+        "days": [
+          11,
+          12,
+          13
+        ]
+      },
+      "spatial_rule": "User is in Mina or Jamarat-related geofences during Days of Tashreeq.",
+      "context_state": "tashreeq_days_state",
+      "inferred_need": "Ritual Guidance + Crowd Awareness",
+      "recommended_message_type": "Guidance",
+      "priority": "High",
+      "evidence_required": [
+        "journey_type is hajj",
+        "Hijri date is 11, 12, or 13 Dhu al-Hijjah",
+        "active zone is Mina or Jamarat-related"
+      ],
+      "knowledge_intent": "tashreeq_guidance",
+      "creator": "Ghader Kurdi",
+      "title": "Days of Tashreeq",
+      "data_identifier": "DaysOfTashreeq",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The eleventh, twelfth, and thirteenth days of Dhu al-Hijjah during the Hajj period.",
+      "keywords": [
+        "ReligiousOccasion",
+        "DaysOfTashreeq",
+        "Days of Tashreeq",
+        "أيام التشريق",
+        "أيام التشريق: الحادي عشر والثاني عشر والثالث عشر من شهر ذي الحجة"
+      ]
+    },
+    {
+      "id": "MakkahCity",
+      "type": "HajjPlace",
+      "label_en": "Makkah",
+      "label_ar": "مكة",
+      "alternative_labels": [
+        "Mecca",
+        "Makkah al-Mukarramah",
+        "مكة المكرمة",
+        "بكة",
+        "أم القرى",
+        "البلد الحرام",
+        "البلد الأمين"
+      ],
+      "definition": "The city of Makkah, containing Al-Haram and the main Hajj places used by the pilgrimage journey.",
+      "spatial_zone_type": "city",
+      "contains_place": [
+        "MakkahHaramBoundaryPlace",
+        "AlHaramPlace",
+        "KaabaPlace",
+        "KaabaAndMataf",
+        "SafaMarwa",
+        "AlHijrPlace",
+        "ArafatPlace",
+        "MuzdalifahPlace",
+        "MinaPlace",
+        "JamaratPlace",
+        "MaqamIbrahimPlace",
+        "BlackStonePlace",
+        "ZamzamWellPlace",
+        "YemeniCornerPlace",
+        "MultazamPlace"
+      ],
+      "mentioned_in_quran": [
+        "QuranVerse_3_96",
+        "QuranVerse_14_37"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Makkah",
+      "data_identifier": "MakkahCity",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The city of Makkah, containing Al-Haram and the main Hajj places used by the pilgrimage journey.",
+      "keywords": [
+        "HajjPlace",
+        "MakkahCity",
+        "Makkah",
+        "مكة",
+        "city",
+        "Mecca",
+        "Makkah al-Mukarramah",
+        "مكة المكرمة",
+        "بكة",
+        "أم القرى",
+        "البلد الحرام",
+        "البلد الأمين"
+      ]
+    },
+    {
+      "id": "MadinahCity",
+      "type": "HajjPlace",
+      "label_en": "Madinah",
+      "label_ar": "المدينة المنورة",
+      "alternative_labels": [
+        "Medina",
+        "Al Madinah",
+        "Madinah al-Munawwarah",
+        "المدينة",
+        "طيبة",
+        "مدينة الرسول",
+        "يثرب"
+      ],
+      "definition": "The city of Madinah, containing the Prophet's Mosque and visit-related sacred places.",
+      "spatial_zone_type": "city",
+      "contains_place": [
+        "ProphetMosquePlace"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Madinah",
+      "data_identifier": "MadinahCity",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The city of Madinah, containing the Prophet's Mosque and visit-related sacred places.",
+      "keywords": [
+        "HajjPlace",
+        "MadinahCity",
+        "Madinah",
+        "المدينة المنورة",
+        "city",
+        "Medina",
+        "Al Madinah",
+        "Madinah al-Munawwarah",
+        "المدينة",
+        "طيبة",
+        "مدينة الرسول",
+        "يثرب"
+      ]
+    },
+    {
+      "id": "MakkahHaramBoundaryPlace",
+      "type": "SacredPlace",
+      "label_en": "Makkah Haram Boundary",
+      "label_ar": "حدود الحرم المكي",
+      "definition": "The sacred boundary of the Haram area in Makkah.",
+      "spatial_zone_type": "sacred_boundary",
+      "associated_zone_ids": [
+        "makkah_haram_boundary"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Makkah Haram Boundary",
+      "data_identifier": "MakkahHaramBoundaryPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The sacred boundary of the Haram area in Makkah.",
+      "keywords": [
+        "SacredPlace",
+        "MakkahHaramBoundaryPlace",
+        "Makkah Haram Boundary",
+        "حدود الحرم المكي",
+        "sacred_boundary"
+      ]
+    },
+    {
+      "id": "AlHaramPlace",
+      "type": "SacredPlace",
+      "label_en": "Al-Haram",
+      "label_ar": "المسجد الحرام",
+      "definition": "The sacred mosque area in Makkah associated with Tawaf, prayer, and pilgrimage presence.",
+      "spatial_zone_type": "holy_site",
+      "associated_zone_ids": [
+        "alharam"
+      ],
+      "located_in_city": "MakkahCity",
+      "has_gate": [
+        "ZoneSemantic_bab_al_salam_haram",
+        "ZoneSemantic_bab_king_abdulaziz_haram",
+        "ZoneSemantic_bab_al_umrah_haram"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Haram",
+      "data_identifier": "AlHaramPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The sacred mosque area in Makkah associated with Tawaf, prayer, and pilgrimage presence.",
+      "keywords": [
+        "SacredPlace",
+        "AlHaramPlace",
+        "Al-Haram",
+        "المسجد الحرام",
+        "holy_site"
+      ]
+    },
+    {
+      "id": "KaabaPlace",
+      "type": "SacredPlace",
+      "label_en": "The Kaaba",
+      "label_ar": "الكعبة المشرفة",
+      "definition": "The most sacred space in Al-Haram and the spatial reference point for Tawaf.",
+      "spatial_zone_type": "sacred_space",
+      "associated_zone_ids": [
+        "kaaba"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "The Kaaba",
+      "data_identifier": "KaabaPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The most sacred space in Al-Haram and the spatial reference point for Tawaf.",
+      "keywords": [
+        "SacredPlace",
+        "KaabaPlace",
+        "The Kaaba",
+        "الكعبة المشرفة",
+        "sacred_space"
+      ]
+    },
+    {
+      "id": "ProphetMosquePlace",
+      "type": "SacredPlace",
+      "label_en": "Prophet's Mosque",
+      "label_ar": "المسجد النبوي",
+      "definition": "The sacred mosque in Madinah associated with the visit journey.",
+      "spatial_zone_type": "holy_site",
+      "associated_zone_ids": [
+        "prophetMosque"
+      ],
+      "located_in_city": "MadinahCity",
+      "has_gate": [
+        "ZoneSemantic_bab_quba_prophet_mosque",
+        "ZoneSemantic_bab_bilal_prophet_mosque",
+        "ZoneSemantic_bab_king_saud_prophet_mosque",
+        "ZoneSemantic_bab_al_aqiq_prophet_mosque",
+        "ZoneSemantic_bab_omar_ibn_al_khattab_prophet_mosque",
+        "ZoneSemantic_bab_badr_prophet_mosque",
+        "ZoneSemantic_bab_king_fahd_prophet_mosque",
+        "ZoneSemantic_bab_uhud_prophet_mosque",
+        "ZoneSemantic_bab_uthman_ibn_affan_prophet_mosque",
+        "ZoneSemantic_bab_ali_ibn_abi_talib_prophet_mosque",
+        "ZoneSemantic_bab_abu_dharr_al_ghifari_prophet_mosque",
+        "ZoneSemantic_bab_king_abdulaziz_prophet_mosque",
+        "ZoneSemantic_bab_makkah_prophet_mosque",
+        "ZoneSemantic_bab_al_baqia_prophet_mosque",
+        "ZoneSemantic_bab_jebril_prophet_mosque",
+        "ZoneSemantic_bab_al_nisaa_prophet_mosque",
+        "ZoneSemantic_bab_al_rahmah_prophet_mosque"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Prophet's Mosque",
+      "data_identifier": "ProphetMosquePlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The sacred mosque in Madinah associated with the visit journey.",
+      "keywords": [
+        "SacredPlace",
+        "ProphetMosquePlace",
+        "Prophet's Mosque",
+        "المسجد النبوي",
+        "holy_site"
+      ]
+    },
+    {
+      "id": "KaabaAndMataf",
+      "type": "SacredPlace",
+      "label_en": "Kaaba and Mataf",
+      "label_ar": "الكعبة والمطاف",
+      "associated_zone_ids": [
+        "kaaba",
+        "tawaf"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Kaaba and Mataf",
+      "data_identifier": "KaabaAndMataf",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Kaaba and Mataf is an ontology node of type SacredPlace.",
+      "keywords": [
+        "SacredPlace",
+        "KaabaAndMataf",
+        "Kaaba and Mataf",
+        "الكعبة والمطاف"
+      ]
+    },
+    {
+      "id": "SafaMarwa",
+      "type": "SacredPlace",
+      "label_en": "Safa and Marwa",
+      "label_ar": "الصفا والمروة",
+      "associated_zone_ids": [
+        "safa",
+        "marwah",
+        "sai"
+      ],
+      "located_in_city": "MakkahCity",
+      "mentioned_in_quran": [
+        "QuranVerse_2_158"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Safa and Marwa",
+      "data_identifier": "SafaMarwa",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Safa and Marwa is an ontology node of type SacredPlace.",
+      "keywords": [
+        "SacredPlace",
+        "SafaMarwa",
+        "Safa and Marwa",
+        "الصفا والمروة"
+      ]
+    },
+    {
+      "id": "ArafatPlace",
+      "type": "HajjPlace",
+      "label_en": "Arafat",
+      "label_ar": "عرفات",
+      "alternative_labels": [
+        "Arafah",
+        "Plain of Arafat",
+        "عرفة"
+      ],
+      "associated_zone_ids": [
+        "arafat",
+        "jabal_al_rahmah",
+        "namirah_mosque",
+        "jabal_namirah"
+      ],
+      "located_in_city": "MakkahCity",
+      "mentioned_in_quran": [
+        "QuranVerse_2_198"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Arafat",
+      "data_identifier": "ArafatPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Arafat is an ontology node of type HajjPlace.",
+      "keywords": [
+        "HajjPlace",
+        "ArafatPlace",
+        "Arafat",
+        "عرفات",
+        "Arafah",
+        "Plain of Arafat",
+        "عرفة"
+      ]
+    },
+    {
+      "id": "MuzdalifahPlace",
+      "type": "HajjPlace",
+      "label_en": "Muzdalifah",
+      "label_ar": "مزدلفة",
+      "alternative_labels": [
+        "Al-Mash'ar Al-Haram",
+        "Al-Mashar Al-Haram",
+        "المشعر الحرام"
+      ],
+      "definition": "The Hajj site where pilgrims stay after departing Arafat and before proceeding to Mina.",
+      "associated_zone_ids": [
+        "muzdalifah",
+        "mashair_train_muzdalifah_station"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Muzdalifah",
+      "data_identifier": "MuzdalifahPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Hajj site where pilgrims stay after departing Arafat and before proceeding to Mina.",
+      "keywords": [
+        "HajjPlace",
+        "MuzdalifahPlace",
+        "Muzdalifah",
+        "مزدلفة",
+        "Al-Mash'ar Al-Haram",
+        "Al-Mashar Al-Haram",
+        "المشعر الحرام"
+      ]
+    },
+    {
+      "id": "MinaPlace",
+      "type": "HajjPlace",
+      "label_en": "Mina",
+      "label_ar": "منى",
+      "associated_zone_ids": [
+        "mina",
+        "jamarat_al_aqaba",
+        "jamarat_al_sughra"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Mina",
+      "data_identifier": "MinaPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Mina is an ontology node of type HajjPlace.",
+      "keywords": [
+        "HajjPlace",
+        "MinaPlace",
+        "Mina",
+        "منى"
+      ]
+    },
+    {
+      "id": "JamaratPlace",
+      "type": "HajjPlace",
+      "label_en": "Jamarat",
+      "label_ar": "الجمرات",
+      "definition": "The three Jamarat pillars in Mina associated with the Rami ritual.",
+      "associated_zone_ids": [
+        "jamarat_al_aqaba",
+        "jamarat_al_wusta",
+        "jamarat_al_sughra"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Jamarat",
+      "data_identifier": "JamaratPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The three Jamarat pillars in Mina associated with the Rami ritual.",
+      "keywords": [
+        "HajjPlace",
+        "JamaratPlace",
+        "Jamarat",
+        "الجمرات"
+      ]
+    },
+    {
+      "id": "MiqatPlace",
+      "type": "HajjPlace",
+      "label_en": "Miqat",
+      "label_ar": "الميقات",
+      "associated_zone_ids": [
+        "dhul_hulayfah_miqat",
+        "juhfah_miqat",
+        "qarn_al_manazil_miqat",
+        "yalamlam_miqat",
+        "dhat_irq_miqat"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Miqat",
+      "data_identifier": "MiqatPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Miqat is an ontology node of type HajjPlace.",
+      "keywords": [
+        "HajjPlace",
+        "MiqatPlace",
+        "Miqat",
+        "الميقات"
+      ]
+    },
+    {
+      "id": "SpatialZoneSemantic",
+      "type": "Class",
+      "label_en": "Spatial Zone Semantic Metadata",
+      "label_ar": "بيانات دلالية للنطاق المكاني",
+      "definition": "Ontology node that stores the semantic type and suggested spatial stage for a spatial geofence.",
+      "creator": "Ghader Kurdi",
+      "title": "Spatial Zone Semantic Metadata",
+      "data_identifier": "SpatialZoneSemantic",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Ontology node that stores the semantic type and suggested spatial stage for a spatial geofence.",
+      "keywords": [
+        "Class",
+        "SpatialZoneSemantic",
+        "Spatial Zone Semantic Metadata",
+        "بيانات دلالية للنطاق المكاني"
+      ]
+    },
+    {
+      "id": "QuranVerse",
+      "type": "Class",
+      "label_en": "Quran Verse",
+      "label_ar": "آية قرآنية",
+      "definition": "A Quran verse referenced by ontology concepts.",
+      "creator": "Ghader Kurdi",
+      "title": "Quran Verse",
+      "data_identifier": "QuranVerse",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A Quran verse referenced by ontology concepts.",
+      "keywords": [
+        "Class",
+        "QuranVerse",
+        "Quran Verse",
+        "آية قرآنية"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_makkah_haram_boundary",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Makkah Haram Boundary",
+      "label_ar": "حدود الحرم المكي",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence makkah_haram_boundary.",
+      "source_zone_id": "makkah_haram_boundary",
+      "associated_zone_ids": [
+        "makkah_haram_boundary"
+      ],
+      "spatial_zone_type": "sacred_boundary",
+      "spatial_stage": "Makkah Haram Boundary",
+      "creator": "Ghader Kurdi",
+      "title": "Makkah Haram Boundary",
+      "data_identifier": "ZoneSemantic_makkah_haram_boundary",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence makkah_haram_boundary.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_makkah_haram_boundary",
+        "Makkah Haram Boundary",
+        "حدود الحرم المكي",
+        "sacred_boundary",
+        "makkah_haram_boundary"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_salam_haram",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Bab Al-Salam - Al-Haram",
+      "label_ar": "باب السلام الحرم المكي",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_salam_haram.",
+      "source_zone_id": "bab_al_salam_haram",
+      "associated_zone_ids": [
+        "bab_al_salam_haram"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Al-Haram Gate Arrival",
+      "gate_of": "AlHaramPlace",
+      "creator": "Ghader Kurdi",
+      "title": "Bab Al-Salam - Al-Haram",
+      "data_identifier": "ZoneSemantic_bab_al_salam_haram",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_salam_haram.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_salam_haram",
+        "Bab Al-Salam - Al-Haram",
+        "باب السلام الحرم المكي",
+        "gate",
+        "Al-Haram Gate Arrival",
+        "bab_al_salam_haram"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_king_abdulaziz_haram",
+      "type": "SpatialZoneSemantic",
+      "label_en": "King Abdulaziz Gate - Al-Haram",
+      "label_ar": "باب الملك عبدالعزيز",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_abdulaziz_haram.",
+      "source_zone_id": "bab_king_abdulaziz_haram",
+      "associated_zone_ids": [
+        "bab_king_abdulaziz_haram"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Al-Haram Gate Arrival",
+      "gate_of": "AlHaramPlace",
+      "creator": "Ghader Kurdi",
+      "title": "King Abdulaziz Gate - Al-Haram",
+      "data_identifier": "ZoneSemantic_bab_king_abdulaziz_haram",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_abdulaziz_haram.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_king_abdulaziz_haram",
+        "King Abdulaziz Gate - Al-Haram",
+        "باب الملك عبدالعزيز",
+        "gate",
+        "Al-Haram Gate Arrival",
+        "bab_king_abdulaziz_haram"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_umrah_haram",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Umrah Gate - Al-Haram",
+      "label_ar": "باب العمرة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_umrah_haram.",
+      "source_zone_id": "bab_al_umrah_haram",
+      "associated_zone_ids": [
+        "bab_al_umrah_haram"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Al-Haram Gate Arrival",
+      "gate_of": "AlHaramPlace",
+      "creator": "Ghader Kurdi",
+      "title": "Umrah Gate - Al-Haram",
+      "data_identifier": "ZoneSemantic_bab_al_umrah_haram",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_umrah_haram.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_umrah_haram",
+        "Umrah Gate - Al-Haram",
+        "باب العمرة",
+        "gate",
+        "Al-Haram Gate Arrival",
+        "bab_al_umrah_haram"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_alharam",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Haram",
+      "label_ar": "المسجد الحرام",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence alharam.",
+      "source_zone_id": "alharam",
+      "associated_zone_ids": [
+        "alharam"
+      ],
+      "spatial_zone_type": "holy_site",
+      "spatial_stage": "Arrival at Al-Haram",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Haram",
+      "data_identifier": "ZoneSemantic_alharam",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence alharam.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_alharam",
+        "Al-Haram",
+        "المسجد الحرام",
+        "holy_site",
+        "Arrival at Al-Haram",
+        "alharam"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_kaaba",
+      "type": "SpatialZoneSemantic",
+      "label_en": "The Kaaba",
+      "label_ar": "الكعبة المشرفة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence kaaba.",
+      "source_zone_id": "kaaba",
+      "associated_zone_ids": [
+        "kaaba"
+      ],
+      "spatial_zone_type": "sacred_space",
+      "spatial_stage": "Kaaba Proximity",
+      "creator": "Ghader Kurdi",
+      "title": "The Kaaba",
+      "data_identifier": "ZoneSemantic_kaaba",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence kaaba.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_kaaba",
+        "The Kaaba",
+        "الكعبة المشرفة",
+        "sacred_space",
+        "Kaaba Proximity",
+        "kaaba"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_tawaf",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Tawaf Area",
+      "label_ar": "منطقة المطاف",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence tawaf.",
+      "source_zone_id": "tawaf",
+      "associated_zone_ids": [
+        "tawaf"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Tawaf Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Tawaf Area",
+      "data_identifier": "ZoneSemantic_tawaf",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence tawaf.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_tawaf",
+        "Tawaf Area",
+        "منطقة المطاف",
+        "ritual_area",
+        "Tawaf Preparation",
+        "tawaf"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_safa",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Sa'i Path",
+      "label_ar": "المسعى",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence safa.",
+      "source_zone_id": "safa",
+      "associated_zone_ids": [
+        "safa"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Sa'i Guidance",
+      "mentioned_in_quran": [
+        "QuranVerse_2_158"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Sa'i Path",
+      "data_identifier": "ZoneSemantic_safa",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence safa.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_safa",
+        "Sa'i Path",
+        "المسعى",
+        "ritual_area",
+        "Sa'i Guidance",
+        "safa"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_marwah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Marwah",
+      "label_ar": "المروة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence marwah.",
+      "source_zone_id": "marwah",
+      "associated_zone_ids": [
+        "marwah"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Sa'i Guidance",
+      "mentioned_in_quran": [
+        "QuranVerse_2_158"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Marwah",
+      "data_identifier": "ZoneSemantic_marwah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence marwah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_marwah",
+        "Al-Marwah",
+        "المروة",
+        "ritual_area",
+        "Sa'i Guidance",
+        "marwah"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_mina",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Mina Camp",
+      "label_ar": "منى",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence mina.",
+      "source_zone_id": "mina",
+      "associated_zone_ids": [
+        "mina"
+      ],
+      "spatial_zone_type": "hajj_site",
+      "spatial_stage": "Mina Stay",
+      "creator": "Ghader Kurdi",
+      "title": "Mina Camp",
+      "data_identifier": "ZoneSemantic_mina",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence mina.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_mina",
+        "Mina Camp",
+        "منى",
+        "hajj_site",
+        "Mina Stay",
+        "mina"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_jamarat_al_aqaba",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Jamarat Al-Aqaba",
+      "label_ar": "جمرة العقبة الكبرى",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence jamarat_al_aqaba.",
+      "source_zone_id": "jamarat_al_aqaba",
+      "associated_zone_ids": [
+        "jamarat_al_aqaba"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Jamarat Ritual",
+      "creator": "Ghader Kurdi",
+      "title": "Jamarat Al-Aqaba",
+      "data_identifier": "ZoneSemantic_jamarat_al_aqaba",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence jamarat_al_aqaba.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_jamarat_al_aqaba",
+        "Jamarat Al-Aqaba",
+        "جمرة العقبة الكبرى",
+        "ritual_area",
+        "Jamarat Ritual",
+        "jamarat_al_aqaba"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_jamarat_al_sughra",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Jamarat Al-Sughra",
+      "label_ar": "الجمرة الصغرى",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence jamarat_al_sughra.",
+      "source_zone_id": "jamarat_al_sughra",
+      "associated_zone_ids": [
+        "jamarat_al_sughra"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Jamarat Ritual",
+      "creator": "Ghader Kurdi",
+      "title": "Jamarat Al-Sughra",
+      "data_identifier": "ZoneSemantic_jamarat_al_sughra",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence jamarat_al_sughra.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_jamarat_al_sughra",
+        "Jamarat Al-Sughra",
+        "الجمرة الصغرى",
+        "ritual_area",
+        "Jamarat Ritual",
+        "jamarat_al_sughra"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_arafat",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Arafat Plain",
+      "label_ar": "عرفات",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence arafat.",
+      "source_zone_id": "arafat",
+      "associated_zone_ids": [
+        "arafat"
+      ],
+      "spatial_zone_type": "hajj_site",
+      "spatial_stage": "Arafat Reflection",
+      "creator": "Ghader Kurdi",
+      "title": "Arafat Plain",
+      "data_identifier": "ZoneSemantic_arafat",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence arafat.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_arafat",
+        "Arafat Plain",
+        "عرفات",
+        "hajj_site",
+        "Arafat Reflection",
+        "arafat"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_mashair_train_arafat_3_station",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al Mashaaer Train - Arafat 3 Station",
+      "label_ar": "قطار المشاعر - محطة عرفات 3",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence mashair_train_arafat_3_station.",
+      "source_zone_id": "mashair_train_arafat_3_station",
+      "associated_zone_ids": [
+        "mashair_train_arafat_3_station"
+      ],
+      "spatial_zone_type": "transport_station",
+      "spatial_stage": "Arafat Transit",
+      "creator": "Ghader Kurdi",
+      "title": "Al Mashaaer Train - Arafat 3 Station",
+      "data_identifier": "ZoneSemantic_mashair_train_arafat_3_station",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence mashair_train_arafat_3_station.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_mashair_train_arafat_3_station",
+        "Al Mashaaer Train - Arafat 3 Station",
+        "قطار المشاعر - محطة عرفات 3",
+        "transport_station",
+        "Arafat Transit",
+        "mashair_train_arafat_3_station"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_pedestrian_route_muzdalifah_arafat",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Pedestrian Route between Muzdalifah and Arafat",
+      "label_ar": "طريق المشاة بين مزدلفة وعرفات",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence pedestrian_route_muzdalifah_arafat.",
+      "source_zone_id": "pedestrian_route_muzdalifah_arafat",
+      "associated_zone_ids": [
+        "pedestrian_route_muzdalifah_arafat"
+      ],
+      "spatial_zone_type": "pedestrian_route",
+      "spatial_stage": "Walking Route Guidance",
+      "creator": "Ghader Kurdi",
+      "title": "Pedestrian Route between Muzdalifah and Arafat",
+      "data_identifier": "ZoneSemantic_pedestrian_route_muzdalifah_arafat",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence pedestrian_route_muzdalifah_arafat.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_pedestrian_route_muzdalifah_arafat",
+        "Pedestrian Route between Muzdalifah and Arafat",
+        "طريق المشاة بين مزدلفة وعرفات",
+        "pedestrian_route",
+        "Walking Route Guidance",
+        "pedestrian_route_muzdalifah_arafat"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_jabal_namirah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Jabal Namirah",
+      "label_ar": "جبل نمرة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence jabal_namirah.",
+      "source_zone_id": "jabal_namirah",
+      "associated_zone_ids": [
+        "jabal_namirah"
+      ],
+      "spatial_zone_type": "historic_site",
+      "spatial_stage": "Arafat Landmark",
+      "creator": "Ghader Kurdi",
+      "title": "Jabal Namirah",
+      "data_identifier": "ZoneSemantic_jabal_namirah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence jabal_namirah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_jabal_namirah",
+        "Jabal Namirah",
+        "جبل نمرة",
+        "historic_site",
+        "Arafat Landmark",
+        "jabal_namirah"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_namirah_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Namirah Mosque",
+      "label_ar": "مسجد نمرة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence namirah_mosque.",
+      "source_zone_id": "namirah_mosque",
+      "associated_zone_ids": [
+        "namirah_mosque"
+      ],
+      "spatial_zone_type": "mosque",
+      "spatial_stage": "Arafat Worship",
+      "creator": "Ghader Kurdi",
+      "title": "Namirah Mosque",
+      "data_identifier": "ZoneSemantic_namirah_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence namirah_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_namirah_mosque",
+        "Namirah Mosque",
+        "مسجد نمرة",
+        "mosque",
+        "Arafat Worship",
+        "namirah_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_jabal_al_rahmah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Jabal al-Rahmah",
+      "label_ar": "جبل الرحمة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence jabal_al_rahmah.",
+      "source_zone_id": "jabal_al_rahmah",
+      "associated_zone_ids": [
+        "jabal_al_rahmah"
+      ],
+      "spatial_zone_type": "historic_site",
+      "spatial_stage": "Arafat Reflection",
+      "creator": "Ghader Kurdi",
+      "title": "Jabal al-Rahmah",
+      "data_identifier": "ZoneSemantic_jabal_al_rahmah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence jabal_al_rahmah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_jabal_al_rahmah",
+        "Jabal al-Rahmah",
+        "جبل الرحمة",
+        "historic_site",
+        "Arafat Reflection",
+        "jabal_al_rahmah"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_muzdalifah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Muzdalifah",
+      "label_ar": "مزدلفة",
+      "alternative_labels": [
+        "Al-Mash'ar Al-Haram",
+        "Al-Mashar Al-Haram",
+        "المشعر الحرام"
+      ],
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence muzdalifah.",
+      "source_zone_id": "muzdalifah",
+      "associated_zone_ids": [
+        "muzdalifah"
+      ],
+      "spatial_zone_type": "hajj_site",
+      "spatial_stage": "Muzdalifah Rest",
+      "creator": "Ghader Kurdi",
+      "title": "Muzdalifah",
+      "data_identifier": "ZoneSemantic_muzdalifah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence muzdalifah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_muzdalifah",
+        "Muzdalifah",
+        "مزدلفة",
+        "hajj_site",
+        "Muzdalifah Rest",
+        "muzdalifah",
+        "Al-Mash'ar Al-Haram",
+        "Al-Mashar Al-Haram",
+        "المشعر الحرام"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_mashair_train_muzdalifah_station",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al Mashaaer Train - Muzdalifah Station",
+      "label_ar": "قطار المشاعر - محطة مزدلفة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence mashair_train_muzdalifah_station.",
+      "source_zone_id": "mashair_train_muzdalifah_station",
+      "associated_zone_ids": [
+        "mashair_train_muzdalifah_station"
+      ],
+      "spatial_zone_type": "transport_station",
+      "spatial_stage": "Muzdalifah Transit",
+      "creator": "Ghader Kurdi",
+      "title": "Al Mashaaer Train - Muzdalifah Station",
+      "data_identifier": "ZoneSemantic_mashair_train_muzdalifah_station",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence mashair_train_muzdalifah_station.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_mashair_train_muzdalifah_station",
+        "Al Mashaaer Train - Muzdalifah Station",
+        "قطار المشاعر - محطة مزدلفة",
+        "transport_station",
+        "Muzdalifah Transit",
+        "mashair_train_muzdalifah_station"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_prophetMosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Prophet's Mosque",
+      "label_ar": "المسجد النبوي",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence prophetMosque.",
+      "source_zone_id": "prophetMosque",
+      "associated_zone_ids": [
+        "prophetMosque"
+      ],
+      "spatial_zone_type": "holy_site",
+      "spatial_stage": "Madinah Visit",
+      "creator": "Ghader Kurdi",
+      "title": "Prophet's Mosque",
+      "data_identifier": "ZoneSemantic_prophetMosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence prophetMosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_prophetMosque",
+        "Prophet's Mosque",
+        "المسجد النبوي",
+        "holy_site",
+        "Madinah Visit",
+        "prophetMosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_quba_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Quba Gate - Prophet Mosque",
+      "label_ar": "باب قباء المسجد النبوي",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_quba_prophet_mosque.",
+      "source_zone_id": "bab_quba_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_quba_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Quba Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_quba_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_quba_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_quba_prophet_mosque",
+        "Quba Gate - Prophet Mosque",
+        "باب قباء المسجد النبوي",
+        "gate",
+        "Madinah Visit",
+        "bab_quba_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_bilal_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Bilal Gate - Prophet Mosque",
+      "label_ar": "باب بلال المسجد النبوي",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_bilal_prophet_mosque.",
+      "source_zone_id": "bab_bilal_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_bilal_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Bilal Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_bilal_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_bilal_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_bilal_prophet_mosque",
+        "Bilal Gate - Prophet Mosque",
+        "باب بلال المسجد النبوي",
+        "gate",
+        "Madinah Visit",
+        "bab_bilal_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_king_saud_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "King Saud Gate - Prophet Mosque",
+      "label_ar": "باب الملك سعود",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_saud_prophet_mosque.",
+      "source_zone_id": "bab_king_saud_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_king_saud_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "King Saud Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_king_saud_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_saud_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_king_saud_prophet_mosque",
+        "King Saud Gate - Prophet Mosque",
+        "باب الملك سعود",
+        "gate",
+        "Madinah Visit",
+        "bab_king_saud_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_aqiq_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Aqiq Gate - Prophet Mosque",
+      "label_ar": "باب العقيق",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_aqiq_prophet_mosque.",
+      "source_zone_id": "bab_al_aqiq_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_al_aqiq_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Aqiq Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_al_aqiq_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_aqiq_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_aqiq_prophet_mosque",
+        "Al-Aqiq Gate - Prophet Mosque",
+        "باب العقيق",
+        "gate",
+        "Madinah Visit",
+        "bab_al_aqiq_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_omar_ibn_al_khattab_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Omar ibn Al-Khattab Gate - Prophet Mosque",
+      "label_ar": "باب عمر بن الخطاب",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_omar_ibn_al_khattab_prophet_mosque.",
+      "source_zone_id": "bab_omar_ibn_al_khattab_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_omar_ibn_al_khattab_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Omar ibn Al-Khattab Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_omar_ibn_al_khattab_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_omar_ibn_al_khattab_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_omar_ibn_al_khattab_prophet_mosque",
+        "Omar ibn Al-Khattab Gate - Prophet Mosque",
+        "باب عمر بن الخطاب",
+        "gate",
+        "Madinah Visit",
+        "bab_omar_ibn_al_khattab_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_badr_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Badr Gate - Prophet Mosque",
+      "label_ar": "باب بدر",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_badr_prophet_mosque.",
+      "source_zone_id": "bab_badr_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_badr_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Badr Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_badr_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_badr_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_badr_prophet_mosque",
+        "Badr Gate - Prophet Mosque",
+        "باب بدر",
+        "gate",
+        "Madinah Visit",
+        "bab_badr_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_king_fahd_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "King Fahd Gate - Prophet Mosque",
+      "label_ar": "باب الملك فهد",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_fahd_prophet_mosque.",
+      "source_zone_id": "bab_king_fahd_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_king_fahd_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "King Fahd Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_king_fahd_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_fahd_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_king_fahd_prophet_mosque",
+        "King Fahd Gate - Prophet Mosque",
+        "باب الملك فهد",
+        "gate",
+        "Madinah Visit",
+        "bab_king_fahd_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_uhud_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Uhud Gate - Prophet Mosque",
+      "label_ar": "باب أحد",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_uhud_prophet_mosque.",
+      "source_zone_id": "bab_uhud_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_uhud_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Uhud Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_uhud_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_uhud_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_uhud_prophet_mosque",
+        "Uhud Gate - Prophet Mosque",
+        "باب أحد",
+        "gate",
+        "Madinah Visit",
+        "bab_uhud_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_uthman_ibn_affan_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Uthman ibn Affan Gate - Prophet Mosque",
+      "label_ar": "باب عثمان بن عفان",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_uthman_ibn_affan_prophet_mosque.",
+      "source_zone_id": "bab_uthman_ibn_affan_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_uthman_ibn_affan_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Uthman ibn Affan Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_uthman_ibn_affan_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_uthman_ibn_affan_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_uthman_ibn_affan_prophet_mosque",
+        "Uthman ibn Affan Gate - Prophet Mosque",
+        "باب عثمان بن عفان",
+        "gate",
+        "Madinah Visit",
+        "bab_uthman_ibn_affan_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_ali_ibn_abi_talib_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Ali ibn Abi Talib Gate - Prophet Mosque",
+      "label_ar": "باب علي بن أبي طالب",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_ali_ibn_abi_talib_prophet_mosque.",
+      "source_zone_id": "bab_ali_ibn_abi_talib_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_ali_ibn_abi_talib_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Ali ibn Abi Talib Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_ali_ibn_abi_talib_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_ali_ibn_abi_talib_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_ali_ibn_abi_talib_prophet_mosque",
+        "Ali ibn Abi Talib Gate - Prophet Mosque",
+        "باب علي بن أبي طالب",
+        "gate",
+        "Madinah Visit",
+        "bab_ali_ibn_abi_talib_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_abu_dharr_al_ghifari_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Abu Dharr Al-Ghifari Gate - Prophet Mosque",
+      "label_ar": "باب أبو ذر الغفاري",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_abu_dharr_al_ghifari_prophet_mosque.",
+      "source_zone_id": "bab_abu_dharr_al_ghifari_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_abu_dharr_al_ghifari_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Abu Dharr Al-Ghifari Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_abu_dharr_al_ghifari_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_abu_dharr_al_ghifari_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_abu_dharr_al_ghifari_prophet_mosque",
+        "Abu Dharr Al-Ghifari Gate - Prophet Mosque",
+        "باب أبو ذر الغفاري",
+        "gate",
+        "Madinah Visit",
+        "bab_abu_dharr_al_ghifari_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_king_abdulaziz_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "King Abdulaziz Gate - Prophet Mosque",
+      "label_ar": "باب الملك عبد العزيز",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_abdulaziz_prophet_mosque.",
+      "source_zone_id": "bab_king_abdulaziz_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_king_abdulaziz_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "King Abdulaziz Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_king_abdulaziz_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_king_abdulaziz_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_king_abdulaziz_prophet_mosque",
+        "King Abdulaziz Gate - Prophet Mosque",
+        "باب الملك عبد العزيز",
+        "gate",
+        "Madinah Visit",
+        "bab_king_abdulaziz_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_makkah_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Makkah Gate - Prophet Mosque",
+      "label_ar": "باب مكة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_makkah_prophet_mosque.",
+      "source_zone_id": "bab_makkah_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_makkah_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Makkah Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_makkah_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_makkah_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_makkah_prophet_mosque",
+        "Makkah Gate - Prophet Mosque",
+        "باب مكة",
+        "gate",
+        "Madinah Visit",
+        "bab_makkah_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_baqia_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Baqi Gate - Prophet Mosque",
+      "label_ar": "باب البقيع المسجد النبوي",
+      "definition": "Semantic metadata for the spatial geofence bab_al_baqia_prophet_mosque.",
+      "source_zone_id": "bab_al_baqia_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_al_baqia_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Baqi Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_al_baqia_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata for the spatial geofence bab_al_baqia_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_baqia_prophet_mosque",
+        "Al-Baqi Gate - Prophet Mosque",
+        "باب البقيع المسجد النبوي",
+        "gate",
+        "Madinah Visit",
+        "bab_al_baqia_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_jebril_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Jibril Gate - Prophet Mosque",
+      "label_ar": "باب جبريل المسجد النبوي",
+      "definition": "Semantic metadata for the spatial geofence bab_jebril_prophet_mosque.",
+      "source_zone_id": "bab_jebril_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_jebril_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Jibril Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_jebril_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata for the spatial geofence bab_jebril_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_jebril_prophet_mosque",
+        "Jibril Gate - Prophet Mosque",
+        "باب جبريل المسجد النبوي",
+        "gate",
+        "Madinah Visit",
+        "bab_jebril_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_nisaa_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Nisaa Gate - Prophet Mosque",
+      "label_ar": "باب النساء المسجد النبوي",
+      "definition": "Semantic metadata for the spatial geofence bab_al_nisaa_prophet_mosque.",
+      "source_zone_id": "bab_al_nisaa_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_al_nisaa_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Nisaa Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_al_nisaa_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata for the spatial geofence bab_al_nisaa_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_nisaa_prophet_mosque",
+        "Al-Nisaa Gate - Prophet Mosque",
+        "باب النساء المسجد النبوي",
+        "gate",
+        "Madinah Visit",
+        "bab_al_nisaa_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_bab_al_rahmah_prophet_mosque",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Al-Rahmah Gate - Prophet Mosque",
+      "label_ar": "باب الرحمة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_rahmah_prophet_mosque.",
+      "source_zone_id": "bab_al_rahmah_prophet_mosque",
+      "associated_zone_ids": [
+        "bab_al_rahmah_prophet_mosque"
+      ],
+      "spatial_zone_type": "gate",
+      "spatial_stage": "Madinah Visit",
+      "gate_of": "ProphetMosquePlace",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Rahmah Gate - Prophet Mosque",
+      "data_identifier": "ZoneSemantic_bab_al_rahmah_prophet_mosque",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence bab_al_rahmah_prophet_mosque.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_bab_al_rahmah_prophet_mosque",
+        "Al-Rahmah Gate - Prophet Mosque",
+        "باب الرحمة",
+        "gate",
+        "Madinah Visit",
+        "bab_al_rahmah_prophet_mosque"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_miqat_dhu_hulayfah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Miqat Dhu al-Hulayfah",
+      "label_ar": "ميقات ذو الحليفة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_dhu_hulayfah.",
+      "source_zone_id": "miqat_dhu_hulayfah",
+      "associated_zone_ids": [
+        "miqat_dhu_hulayfah"
+      ],
+      "spatial_zone_type": "miqat",
+      "spatial_stage": "Ihram Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Miqat Dhu al-Hulayfah",
+      "data_identifier": "ZoneSemantic_miqat_dhu_hulayfah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_dhu_hulayfah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_miqat_dhu_hulayfah",
+        "Miqat Dhu al-Hulayfah",
+        "ميقات ذو الحليفة",
+        "miqat",
+        "Ihram Preparation",
+        "miqat_dhu_hulayfah"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_miqat_qarn_al_manazil",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Miqat Qarn al-Manazil",
+      "label_ar": "ميقات قرن المنازل",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_qarn_al_manazil.",
+      "source_zone_id": "miqat_qarn_al_manazil",
+      "associated_zone_ids": [
+        "miqat_qarn_al_manazil"
+      ],
+      "spatial_zone_type": "miqat",
+      "spatial_stage": "Ihram Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Miqat Qarn al-Manazil",
+      "data_identifier": "ZoneSemantic_miqat_qarn_al_manazil",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_qarn_al_manazil.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_miqat_qarn_al_manazil",
+        "Miqat Qarn al-Manazil",
+        "ميقات قرن المنازل",
+        "miqat",
+        "Ihram Preparation",
+        "miqat_qarn_al_manazil"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_miqat_yalamlam",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Miqat Yalamlam",
+      "label_ar": "ميقات يلملم",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_yalamlam.",
+      "source_zone_id": "miqat_yalamlam",
+      "associated_zone_ids": [
+        "miqat_yalamlam"
+      ],
+      "spatial_zone_type": "miqat",
+      "spatial_stage": "Ihram Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Miqat Yalamlam",
+      "data_identifier": "ZoneSemantic_miqat_yalamlam",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_yalamlam.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_miqat_yalamlam",
+        "Miqat Yalamlam",
+        "ميقات يلملم",
+        "miqat",
+        "Ihram Preparation",
+        "miqat_yalamlam"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_miqat_dhat_irq",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Miqat Dhat Irq",
+      "label_ar": "ميقات ذات عرق",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_dhat_irq.",
+      "source_zone_id": "miqat_dhat_irq",
+      "associated_zone_ids": [
+        "miqat_dhat_irq"
+      ],
+      "spatial_zone_type": "miqat",
+      "spatial_stage": "Ihram Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Miqat Dhat Irq",
+      "data_identifier": "ZoneSemantic_miqat_dhat_irq",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_dhat_irq.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_miqat_dhat_irq",
+        "Miqat Dhat Irq",
+        "ميقات ذات عرق",
+        "miqat",
+        "Ihram Preparation",
+        "miqat_dhat_irq"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_miqat_al_juhfah",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Miqat Al-Juhfah / Rabigh",
+      "label_ar": "ميقات الجحفة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_al_juhfah.",
+      "source_zone_id": "miqat_al_juhfah",
+      "associated_zone_ids": [
+        "miqat_al_juhfah"
+      ],
+      "spatial_zone_type": "miqat",
+      "spatial_stage": "Ihram Preparation",
+      "creator": "Ghader Kurdi",
+      "title": "Miqat Al-Juhfah / Rabigh",
+      "data_identifier": "ZoneSemantic_miqat_al_juhfah",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence miqat_al_juhfah.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_miqat_al_juhfah",
+        "Miqat Al-Juhfah / Rabigh",
+        "ميقات الجحفة",
+        "miqat",
+        "Ihram Preparation",
+        "miqat_al_juhfah"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_sai",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Sa'i / Al Masa'a Safa - Marwa",
+      "label_ar": "المسعى بين الصفا والمروة",
+      "definition": "Semantic metadata moved from spatial-zones.json for the spatial geofence sai.",
+      "source_zone_id": "sai",
+      "associated_zone_ids": [
+        "sai"
+      ],
+      "spatial_zone_type": "ritual_area",
+      "spatial_stage": "Sa'i Performance",
+      "creator": "Ghader Kurdi",
+      "title": "Sa'i / Al Masa'a Safa - Marwa",
+      "data_identifier": "ZoneSemantic_sai",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata moved from spatial-zones.json for the spatial geofence sai.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_sai",
+        "Sa'i / Al Masa'a Safa - Marwa",
+        "المسعى بين الصفا والمروة",
+        "ritual_area",
+        "Sa'i Performance",
+        "sai"
+      ]
+    },
+    {
+      "id": "ZoneSemantic_al_hijr",
+      "type": "SpatialZoneSemantic",
+      "label_en": "Hijr Ismail (Al-Hijr / Hateem)",
+      "label_ar": "حِجر إسماعيل",
+      "alternative_labels": [
+        "Al-Hijr",
+        "Hateem",
+        "Hijr Ismail",
+        "الحِجر",
+        "الحطيم"
+      ],
+      "definition": "Semantic metadata for the spatial geofence al_hijr, representing Hijr Ismail beside the Kaaba.",
+      "source_zone_id": "al_hijr",
+      "associated_zone_ids": [
+        "al_hijr"
+      ],
+      "spatial_zone_type": "sacred_space",
+      "spatial_stage": "Hijr Ismail Proximity",
+      "creator": "Ghader Kurdi",
+      "title": "Hijr Ismail (Al-Hijr / Hateem)",
+      "data_identifier": "ZoneSemantic_al_hijr",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Semantic metadata for the spatial geofence al_hijr, representing Hijr Ismail beside the Kaaba.",
+      "keywords": [
+        "SpatialZoneSemantic",
+        "ZoneSemantic_al_hijr",
+        "Hijr Ismail (Al-Hijr / Hateem)",
+        "حِجر إسماعيل",
+        "sacred_space",
+        "Hijr Ismail Proximity",
+        "al_hijr",
+        "Al-Hijr",
+        "Hateem",
+        "Hijr Ismail",
+        "الحِجر",
+        "الحطيم"
+      ]
+    },
+    {
+      "id": "AlHijrPlace",
+      "type": "SacredPlace",
+      "label_en": "Hijr Ismail (Al-Hijr / Hateem)",
+      "label_ar": "حِجر إسماعيل",
+      "alternative_labels": [
+        "Al-Hijr",
+        "Hateem",
+        "Hijr Ismail",
+        "الحِجر",
+        "الحطيم"
+      ],
+      "definition": "A sacred space adjacent to the Kaaba, known as Hijr Ismail, Al-Hijr, or Hateem.",
+      "associated_zone_ids": [
+        "al_hijr"
+      ],
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Hijr Ismail (Al-Hijr / Hateem)",
+      "data_identifier": "AlHijrPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A sacred space adjacent to the Kaaba, known as Hijr Ismail, Al-Hijr, or Hateem.",
+      "keywords": [
+        "SacredPlace",
+        "AlHijrPlace",
+        "Hijr Ismail (Al-Hijr / Hateem)",
+        "حِجر إسماعيل",
+        "Al-Hijr",
+        "Hateem",
+        "Hijr Ismail",
+        "الحِجر",
+        "الحطيم"
+      ]
+    },
+    {
+      "id": "QuranVerse_22_27",
+      "type": "QuranVerse",
+      "label_en": "Al-Hajj 22:27",
+      "label_ar": "الحج 27",
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_en": "Al-Hajj",
+      "ayah_number": 27,
+      "quran_reference": "22:27",
+      "mentions_concept": [
+        "HajjJourney"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Hajj 22:27",
+      "data_identifier": "QuranVerse_22_27",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-Hajj 22:27 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_22_27",
+        "Al-Hajj 22:27",
+        "الحج 27",
+        "22:27"
+      ]
+    },
+    {
+      "id": "MaqamIbrahimPlace",
+      "type": "SacredPlace",
+      "label_en": "Maqam Ibrahim",
+      "label_ar": "مقام إبراهيم",
+      "alternative_labels": [
+        "Station of Ibrahim",
+        "Maqam Ibrahim",
+        "مقام إبراهيم"
+      ],
+      "definition": "A sacred place in Al-Haram associated with the Station of Ibrahim near the Kaaba.",
+      "spatial_zone_type": "sacred_space",
+      "part_of": "AlHaramPlace",
+      "located_in_city": "MakkahCity",
+      "mentioned_in_quran": [
+        "QuranVerse_2_125",
+        "QuranVerse_3_97"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Maqam Ibrahim",
+      "data_identifier": "MaqamIbrahimPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A sacred place in Al-Haram associated with the Station of Ibrahim near the Kaaba.",
+      "keywords": [
+        "SacredPlace",
+        "MaqamIbrahimPlace",
+        "Maqam Ibrahim",
+        "مقام إبراهيم",
+        "sacred_space",
+        "Station of Ibrahim"
+      ]
+    },
+    {
+      "id": "QuranVerse_2_125",
+      "type": "QuranVerse",
+      "label_en": "Al-Baqarah 2:125",
+      "label_ar": "البقرة 125",
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_en": "Al-Baqarah",
+      "ayah_number": 125,
+      "quran_reference": "2:125",
+      "mentions_concept": [
+        "MaqamIbrahimPlace"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Baqarah 2:125",
+      "data_identifier": "QuranVerse_2_125",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-Baqarah 2:125 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_2_125",
+        "Al-Baqarah 2:125",
+        "البقرة 125",
+        "2:125"
+      ]
+    },
+    {
+      "id": "QuranVerse_3_97",
+      "type": "QuranVerse",
+      "label_en": "Ali Imran 3:97",
+      "label_ar": "آل عمران 97",
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_en": "Ali Imran",
+      "ayah_number": 97,
+      "quran_reference": "3:97",
+      "mentions_concept": [
+        "MaqamIbrahimPlace"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Ali Imran 3:97",
+      "data_identifier": "QuranVerse_3_97",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Ali Imran 3:97 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_3_97",
+        "Ali Imran 3:97",
+        "آل عمران 97",
+        "3:97"
+      ]
+    },
+    {
+      "id": "QuranVerse_2_198",
+      "type": "QuranVerse",
+      "label_en": "Al-Baqarah 2:198",
+      "label_ar": "البقرة 198",
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_en": "Al-Baqarah",
+      "ayah_number": 198,
+      "quran_reference": "2:198",
+      "mentions_concept": [
+        "ArafatPlace",
+        "StandingInArafat"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Baqarah 2:198",
+      "data_identifier": "QuranVerse_2_198",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-Baqarah 2:198 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_2_198",
+        "Al-Baqarah 2:198",
+        "البقرة 198",
+        "2:198"
+      ]
+    },
+    {
+      "id": "MosquePlace",
+      "type": "HajjPlace",
+      "label_en": "Mosque",
+      "label_ar": "مسجد",
+      "alternative_labels": [
+        "Masjid",
+        "Mosque",
+        "المسجد",
+        "المساجد"
+      ],
+      "definition": "A general mosque concept used to link Quran references that apply to mosques broadly.",
+      "spatial_zone_type": "mosque",
+      "mentioned_in_quran": [
+        "QuranVerse_24_36",
+        "QuranVerse_7_31"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Mosque",
+      "data_identifier": "MosquePlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A general mosque concept used to link Quran references that apply to mosques broadly.",
+      "keywords": [
+        "HajjPlace",
+        "MosquePlace",
+        "Mosque",
+        "مسجد",
+        "mosque",
+        "Masjid",
+        "المسجد",
+        "المساجد"
+      ]
+    },
+    {
+      "id": "QuranVerse_24_36",
+      "type": "QuranVerse",
+      "label_en": "An-Nur 24:36",
+      "label_ar": "النور 36",
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_en": "An-Nur",
+      "ayah_number": 36,
+      "quran_reference": "24:36",
+      "mentions_concept": [
+        "MosquePlace"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "An-Nur 24:36",
+      "data_identifier": "QuranVerse_24_36",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "An-Nur 24:36 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_24_36",
+        "An-Nur 24:36",
+        "النور 36",
+        "24:36"
+      ]
+    },
+    {
+      "id": "QuranVerse_7_31",
+      "type": "QuranVerse",
+      "label_en": "Al-A'raf 7:31",
+      "label_ar": "الأعراف 31",
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_en": "Al-A'raf",
+      "ayah_number": 31,
+      "quran_reference": "7:31",
+      "mentions_concept": [
+        "MosquePlace"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-A'raf 7:31",
+      "data_identifier": "QuranVerse_7_31",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-A'raf 7:31 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_7_31",
+        "Al-A'raf 7:31",
+        "الأعراف 31",
+        "7:31"
+      ]
+    },
+    {
+      "id": "QuranVerse_3_96",
+      "type": "QuranVerse",
+      "label_en": "Ali Imran 3:96",
+      "label_ar": "آل عمران 96",
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_en": "Ali Imran",
+      "ayah_number": 96,
+      "quran_reference": "3:96",
+      "mentions_concept": [
+        "MakkahCity"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Ali Imran 3:96",
+      "data_identifier": "QuranVerse_3_96",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Ali Imran 3:96 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_3_96",
+        "Ali Imran 3:96",
+        "آل عمران 96",
+        "3:96"
+      ]
+    },
+    {
+      "id": "QuranVerse_14_37",
+      "type": "QuranVerse",
+      "label_en": "Ibrahim 14:37",
+      "label_ar": "إبراهيم 37",
+      "surah_number": 14,
+      "surah_name_ar": "إبراهيم",
+      "surah_name_en": "Ibrahim",
+      "ayah_number": 37,
+      "quran_reference": "14:37",
+      "mentions_concept": [
+        "MakkahCity"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Ibrahim 14:37",
+      "data_identifier": "QuranVerse_14_37",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Ibrahim 14:37 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_14_37",
+        "Ibrahim 14:37",
+        "إبراهيم 37",
+        "14:37"
+      ]
+    },
+    {
+      "id": "QuranVerse_5_95",
+      "type": "QuranVerse",
+      "label_en": "Al-Maidah 5:95",
+      "label_ar": "المائدة 95",
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_en": "Al-Maidah",
+      "ayah_number": 95,
+      "quran_reference": "5:95",
+      "mentions_concept": [
+        "AlIhram"
+      ],
+      "creator": "Ghader Kurdi",
+      "title": "Al-Maidah 5:95",
+      "data_identifier": "QuranVerse_5_95",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Al-Maidah 5:95 is an ontology node of type QuranVerse.",
+      "keywords": [
+        "QuranVerse",
+        "QuranVerse_5_95",
+        "Al-Maidah 5:95",
+        "المائدة 95",
+        "5:95"
+      ]
+    },
+    {
+      "id": "IslamPillar",
+      "type": "Class",
+      "label_en": "Pillar of Islam",
+      "label_ar": "ركن من أركان الإسلام",
+      "definition": "One of the five foundational pillars of Islam.",
+      "creator": "Ghader Kurdi",
+      "title": "Pillar of Islam",
+      "data_identifier": "IslamPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "One of the five foundational pillars of Islam.",
+      "keywords": [
+        "Class",
+        "IslamPillar",
+        "Pillar of Islam",
+        "ركن من أركان الإسلام"
+      ]
+    },
+    {
+      "id": "islam_pillar",
+      "type": "RelationshipProperty",
+      "label_en": "Islam pillar",
+      "label_ar": "ركن إسلامي",
+      "comment": "Connects an ontology concept such as HajjJourney to the corresponding pillar of Islam.",
+      "domain": "Ontology concept",
+      "range": "IslamPillar",
+      "example": "HajjJourney islam_pillar HajjPillar",
+      "creator": "Ghader Kurdi",
+      "title": "Islam pillar",
+      "data_identifier": "islam_pillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects an ontology concept such as HajjJourney to the corresponding pillar of Islam.",
+      "keywords": [
+        "RelationshipProperty",
+        "islam_pillar",
+        "Islam pillar",
+        "ركن إسلامي"
+      ]
+    },
+    {
+      "id": "represented_by",
+      "type": "RelationshipProperty",
+      "label_en": "represented by",
+      "label_ar": "يمثله",
+      "comment": "Connects a conceptual pillar to the ontology node that operationalizes it.",
+      "domain": "IslamPillar",
+      "range": "Ontology concept",
+      "example": "HajjPillar represented_by HajjJourney",
+      "creator": "Ghader Kurdi",
+      "title": "represented by",
+      "data_identifier": "represented_by",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a conceptual pillar to the ontology node that operationalizes it.",
+      "keywords": [
+        "RelationshipProperty",
+        "represented_by",
+        "represented by",
+        "يمثله"
+      ]
+    },
+    {
+      "id": "performed_in_city",
+      "type": "RelationshipProperty",
+      "label_en": "performed in city",
+      "label_ar": "يؤدى في مدينة",
+      "comment": "Connects a journey or ritual concept to the city where it is primarily performed.",
+      "domain": "Journey or Ritual",
+      "range": "HajjPlace city node",
+      "example": "HajjJourney performed_in_city MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "performed in city",
+      "data_identifier": "performed_in_city",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Connects a journey or ritual concept to the city where it is primarily performed.",
+      "keywords": [
+        "RelationshipProperty",
+        "performed_in_city",
+        "performed in city",
+        "يؤدى في مدينة"
+      ]
+    },
+    {
+      "id": "ShahadaPillar",
+      "type": "IslamPillar",
+      "label_en": "Shahada",
+      "label_ar": "الشهادتان",
+      "alternative_labels": [
+        "Testimony of Faith",
+        "Shahadah",
+        "شهادة أن لا إله إلا الله وأن محمدًا رسول الله"
+      ],
+      "pillar_order": 1,
+      "definition": "One of the five pillars of Islam.",
+      "creator": "Ghader Kurdi",
+      "title": "Shahada",
+      "data_identifier": "ShahadaPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "One of the five pillars of Islam.",
+      "keywords": [
+        "IslamPillar",
+        "ShahadaPillar",
+        "Shahada",
+        "الشهادتان",
+        "Testimony of Faith",
+        "Shahadah",
+        "شهادة أن لا إله إلا الله وأن محمدًا رسول الله"
+      ]
+    },
+    {
+      "id": "SalahPillar",
+      "type": "IslamPillar",
+      "label_en": "Prayer",
+      "label_ar": "الصلاة",
+      "alternative_labels": [
+        "Salah",
+        "Salat",
+        "Prayer",
+        "الصلوات"
+      ],
+      "pillar_order": 2,
+      "definition": "One of the five pillars of Islam.",
+      "creator": "Ghader Kurdi",
+      "title": "Prayer",
+      "data_identifier": "SalahPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "One of the five pillars of Islam.",
+      "keywords": [
+        "IslamPillar",
+        "SalahPillar",
+        "Prayer",
+        "الصلاة",
+        "Salah",
+        "Salat",
+        "الصلوات"
+      ]
+    },
+    {
+      "id": "ZakatPillar",
+      "type": "IslamPillar",
+      "label_en": "Zakat",
+      "label_ar": "الزكاة",
+      "alternative_labels": [
+        "Zakah",
+        "Alms",
+        "الزكاة"
+      ],
+      "pillar_order": 3,
+      "definition": "One of the five pillars of Islam.",
+      "creator": "Ghader Kurdi",
+      "title": "Zakat",
+      "data_identifier": "ZakatPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "One of the five pillars of Islam.",
+      "keywords": [
+        "IslamPillar",
+        "ZakatPillar",
+        "Zakat",
+        "الزكاة",
+        "Zakah",
+        "Alms"
+      ]
+    },
+    {
+      "id": "SawmPillar",
+      "type": "IslamPillar",
+      "label_en": "Fasting Ramadan",
+      "label_ar": "صوم رمضان",
+      "alternative_labels": [
+        "Sawm",
+        "Fasting",
+        "Ramadan fasting",
+        "الصيام"
+      ],
+      "pillar_order": 4,
+      "definition": "One of the five pillars of Islam.",
+      "creator": "Ghader Kurdi",
+      "title": "Fasting Ramadan",
+      "data_identifier": "SawmPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "One of the five pillars of Islam.",
+      "keywords": [
+        "IslamPillar",
+        "SawmPillar",
+        "Fasting Ramadan",
+        "صوم رمضان",
+        "Sawm",
+        "Fasting",
+        "Ramadan fasting",
+        "الصيام"
+      ]
+    },
+    {
+      "id": "HajjPillar",
+      "type": "IslamPillar",
+      "label_en": "Hajj - The Fifth Pillar of Islam",
+      "label_ar": "الحج: الركن الخامس من أركان الإسلام",
+      "alternative_labels": [
+        "Hajj",
+        "Pilgrimage",
+        "The Fifth Pillar of Islam",
+        "الحج"
+      ],
+      "pillar_order": 5,
+      "definition": "Hajj as the fifth pillar of Islam, represented in Ouns by the Hajj journey.",
+      "represented_by": "HajjJourney",
+      "performed_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Hajj - The Fifth Pillar of Islam",
+      "data_identifier": "HajjPillar",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "Hajj as the fifth pillar of Islam, represented in Ouns by the Hajj journey.",
+      "keywords": [
+        "IslamPillar",
+        "HajjPillar",
+        "Hajj - The Fifth Pillar of Islam",
+        "الحج: الركن الخامس من أركان الإسلام",
+        "Hajj",
+        "Pilgrimage",
+        "The Fifth Pillar of Islam",
+        "الحج"
+      ]
+    },
+    {
+      "id": "BlackStonePlace",
+      "type": "SacredPlace",
+      "label_en": "Black Stone",
+      "label_ar": "الحجر الأسود",
+      "alternative_labels": [
+        "Hajar al-Aswad",
+        "Al-Hajar al-Aswad",
+        "Black Stone",
+        "الحجر الأسود"
+      ],
+      "definition": "A sacred landmark set in the Kaaba and associated with Tawaf orientation and greeting gestures.",
+      "spatial_zone_type": "sacred_landmark",
+      "part_of": "KaabaPlace",
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Black Stone",
+      "data_identifier": "BlackStonePlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "A sacred landmark set in the Kaaba and associated with Tawaf orientation and greeting gestures.",
+      "keywords": [
+        "SacredPlace",
+        "BlackStonePlace",
+        "Black Stone",
+        "الحجر الأسود",
+        "sacred_landmark",
+        "Hajar al-Aswad",
+        "Al-Hajar al-Aswad"
+      ]
+    },
+    {
+      "id": "ZamzamWellPlace",
+      "type": "SacredPlace",
+      "label_en": "Zamzam Well",
+      "label_ar": "بئر زمزم",
+      "alternative_labels": [
+        "Zamzam",
+        "Well of Zamzam",
+        "زمزم",
+        "بئر زمزم"
+      ],
+      "definition": "The blessed Zamzam well in Al-Haram near the Kaaba.",
+      "spatial_zone_type": "sacred_water_source",
+      "part_of": "AlHaramPlace",
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Zamzam Well",
+      "data_identifier": "ZamzamWellPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The blessed Zamzam well in Al-Haram near the Kaaba.",
+      "keywords": [
+        "SacredPlace",
+        "ZamzamWellPlace",
+        "Zamzam Well",
+        "بئر زمزم",
+        "sacred_water_source",
+        "Zamzam",
+        "Well of Zamzam",
+        "زمزم"
+      ]
+    },
+    {
+      "id": "YemeniCornerPlace",
+      "type": "SacredPlace",
+      "label_en": "Yemeni Corner",
+      "label_ar": "الركن اليماني",
+      "alternative_labels": [
+        "Yamani Corner",
+        "Yemeni Corner",
+        "الحجر اليماني",
+        "الركن اليماني"
+      ],
+      "definition": "The Yemeni Corner of the Kaaba, a sacred landmark encountered during Tawaf.",
+      "spatial_zone_type": "sacred_landmark",
+      "part_of": "KaabaPlace",
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Yemeni Corner",
+      "data_identifier": "YemeniCornerPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The Yemeni Corner of the Kaaba, a sacred landmark encountered during Tawaf.",
+      "keywords": [
+        "SacredPlace",
+        "YemeniCornerPlace",
+        "Yemeni Corner",
+        "الركن اليماني",
+        "sacred_landmark",
+        "Yamani Corner",
+        "الحجر اليماني"
+      ]
+    },
+    {
+      "id": "MultazamPlace",
+      "type": "SacredPlace",
+      "label_en": "Al-Multazam",
+      "label_ar": "الملتزم",
+      "alternative_labels": [
+        "Multazam",
+        "Al-Multazam",
+        "الملتزم"
+      ],
+      "definition": "The area of the Kaaba wall between the Black Stone and the Kaaba door.",
+      "spatial_zone_type": "sacred_landmark",
+      "part_of": "KaabaPlace",
+      "located_in_city": "MakkahCity",
+      "creator": "Ghader Kurdi",
+      "title": "Al-Multazam",
+      "data_identifier": "MultazamPlace",
+      "publisher": "Ghader Kurdi",
+      "publication_date": "2026-07-11",
+      "summary": "The area of the Kaaba wall between the Black Stone and the Kaaba door.",
+      "keywords": [
+        "SacredPlace",
+        "MultazamPlace",
+        "Al-Multazam",
+        "الملتزم",
+        "sacred_landmark",
+        "Multazam"
+      ]
+    }
+  ]
+}

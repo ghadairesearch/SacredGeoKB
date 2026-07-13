@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T22:44:31Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4589923996",
+        "GNS:dsg_code": "HLL",
+        "GNS:dsg_name": "hill",
+        "GNS:id": "-3092252",
+        "alt_name:ur": "المروہ",
+        "name": "المروة",
+        "name:ar": "المروة",
+        "name:de": "Al-Marwa",
+        "name:en": "Al Marwa",
+        "name:es": "Almarwa",
+        "name:fr": "Al Marwa",
+        "name:ml": "അൽ-മർവ",
+        "name:tk": "Merwe",
+        "name:tr": "Merve",
+        "name:ur": "مروہ",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8271276,
+          21.4251754
+        ]
+      },
+      "id": "node/4589923996"
+    }
+  ]
+}

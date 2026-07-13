@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-07T20:43:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/626051161",
+        "alt_name": "الروضة المباركة;الروضة;روضة مسجد النبي صلى الله عليه وسلم",
+        "name": "الروضة الشريفة",
+        "name:ar": "الروضة الشريفة",
+        "name:en": "Rawda- (Green Carpets)",
+        "place": "square",
+        "religion": "muslim",
+        "wikidata": "Q12187922"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6113378,
+              24.4674682
+            ],
+            [
+              39.611337,
+              24.4676051
+            ],
+            [
+              39.6113368,
+              24.4676434
+            ],
+            [
+              39.6110612,
+              24.467642
+            ],
+            [
+              39.6110616,
+              24.4675688
+            ],
+            [
+              39.6110622,
+              24.4674669
+            ],
+            [
+              39.6111322,
+              24.4674672
+            ],
+            [
+              39.6113378,
+              24.4674682
+            ]
+          ]
+        ]
+      },
+      "id": "way/626051161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6444086729",
+        "entrance": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6110616,
+          24.4675688
+        ]
+      },
+      "id": "node/6444086729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6446648525",
+        "entrance": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6111322,
+          24.4674672
+        ]
+      },
+      "id": "node/6446648525"
+    }
+  ]
+}
