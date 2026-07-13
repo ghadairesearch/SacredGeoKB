@@ -9787,6 +9787,86 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "yemeni_corner",
+      "properties": {
+        "id": "yemeni_corner",
+        "name_en": "Yemeni Corner",
+        "name_ar": "????? ???????",
+        "priority": 88,
+        "source": "PendingCoordinates",
+        "coordinates_status": "pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "black_stone",
+      "properties": {
+        "id": "black_stone",
+        "name_en": "Black Stone",
+        "name_ar": "????? ??????",
+        "priority": 88,
+        "source": "PendingCoordinates",
+        "coordinates_status": "pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multazam",
+      "properties": {
+        "id": "multazam",
+        "name_en": "Al-Multazam",
+        "name_ar": "???????",
+        "priority": 88,
+        "source": "PendingCoordinates",
+        "coordinates_status": "pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cave_hira",
+      "properties": {
+        "id": "cave_hira",
+        "name_en": "Cave Hira",
+        "name_ar": "??? ????",
+        "priority": 65,
+        "source": "PendingCoordinates",
+        "coordinates_status": "pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cave_thawr",
+      "properties": {
+        "id": "cave_thawr",
+        "name_en": "Cave Thawr",
+        "name_ar": "??? ???",
+        "priority": 65,
+        "source": "PendingCoordinates",
+        "coordinates_status": "pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
     }
   ]
 }

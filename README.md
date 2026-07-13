@@ -36,7 +36,7 @@ publication_date: 2026-07-11
 ## Dataset Summary
 
 - Ontology nodes: 124
-- GeoJSON spatial features: 50
+- GeoJSON spatial features: 55
 - Raw OpenStreetMap GeoJSON files: 25
 
 ## Coordinate Order

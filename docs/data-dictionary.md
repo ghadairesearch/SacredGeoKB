@@ -26,3 +26,4 @@
 | GoogleMyMap | 1 |
 | Missing | 6 |
 | OpenStreetMap | 26 |
+| PendingCoordinates | 5 |

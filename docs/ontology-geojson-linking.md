@@ -92,3 +92,13 @@ This document explains how the OWL/JSON-LD ontology is linked to the GeoJSON spa
 | `ZoneSemantic_sai` | `SpatialZoneSemantic` | Sa'i / Al Masa'a Safa - Marwa | `sai` | `sai` |
 | `ZoneSemantic_al_hijr` | `SpatialZoneSemantic` | Hijr Ismail (Al-Hijr / Hateem) | `al_hijr` | `al_hijr` |
 | `AlHijrPlace` | `SacredPlace` | Hijr Ismail (Al-Hijr / Hateem) | `al_hijr` | `al_hijr` |
+
+## Pending Coordinate Features
+
+The following GeoJSON features are placeholders with empty `Point.coordinates` arrays. Coordinates should be added later while keeping the same feature identifiers:
+
+- `yemeni_corner`
+- `black_stone`
+- `multazam`
+- `cave_hira`
+- `cave_thawr`
